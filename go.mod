@@ -9,8 +9,8 @@ go 1.12
 require (
 	k8s.io/api v0.0.0-20190404065945-709cf190c7b7
 	k8s.io/apimachinery v0.0.0-20190404065847-4a4abcd45006
-	k8s.io/apiserver v0.0.0-20190404070726-04665e6b9c70
-	k8s.io/client-go v0.0.0-20190404070121-75debb4b680d
+	k8s.io/apiserver v0.0.0-20190404070728-fb0d7b20d176
+	k8s.io/client-go v0.0.0-20190404070123-5e968874f268
 	k8s.io/klog v0.0.0-20190306015804-8e90cee79f82
 	k8s.io/utils v0.0.0-20190221042446-c2654d5206da
 )
@@ -270,8 +270,8 @@ replace (
 	gotest.tools => gotest.tools v2.2.0+incompatible
 	k8s.io/api => k8s.io/api v0.0.0-20190404065945-709cf190c7b7
 	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20190404065847-4a4abcd45006
-	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20190404070726-04665e6b9c70
-	k8s.io/client-go => k8s.io/client-go v0.0.0-20190404070121-75debb4b680d
+	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20190404070728-fb0d7b20d176
+	k8s.io/client-go => k8s.io/client-go v0.0.0-20190404070123-5e968874f268
 	k8s.io/gengo => k8s.io/gengo v0.0.0-20181106084056-51747d6e00da
 	k8s.io/heapster => k8s.io/heapster v1.2.0-beta.1
 	k8s.io/klog => k8s.io/klog v0.0.0-20190306015804-8e90cee79f82

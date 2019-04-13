@@ -5,10 +5,10 @@ module k8s.io/cloud-provider
 go 1.12
 
 require (
-	k8s.io/api v0.0.0
-	k8s.io/apimachinery v0.0.0
-	k8s.io/apiserver v0.0.0
-	k8s.io/client-go v0.0.0
+	k8s.io/api v0.0.0-20190413052509-3cc1b3fb6d0f
+	k8s.io/apimachinery v0.0.0-20190413052414-40a3f73b0fa2
+	k8s.io/apiserver v0.0.0-20190413053200-5b6ebd80335e
+	k8s.io/client-go v0.0.0-20190413052642-108c485f896e
 	k8s.io/klog v0.0.0-20190306015804-8e90cee79f82
 	k8s.io/utils v0.0.0-20190221042446-c2654d5206da
 )
@@ -21,10 +21,8 @@ replace (
 	github.com/prometheus/procfs => github.com/prometheus/procfs v0.0.0-20170519190837-65c1f6f8f0fc
 	golang.org/x/sys => golang.org/x/sys v0.0.0-20190209173611-3b5209105503
 	golang.org/x/tools => golang.org/x/tools v0.0.0-20190313210603-aa82965741a9
-	k8s.io/api => ../api
-	k8s.io/apimachinery => ../apimachinery
-	k8s.io/apiserver => ../apiserver
-	k8s.io/client-go => ../client-go
-	k8s.io/cloud-provider => ../cloud-provider
-	k8s.io/component-base => ../component-base
+	k8s.io/api => k8s.io/api v0.0.0-20190413052509-3cc1b3fb6d0f
+	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20190413052414-40a3f73b0fa2
+	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20190413053200-5b6ebd80335e
+	k8s.io/client-go => k8s.io/client-go v0.0.0-20190413052642-108c485f896e
 )

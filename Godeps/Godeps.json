@@ -464,7 +464,7 @@
 		},
 		{
 			"ImportPath": "k8s.io/apiserver/pkg/util/feature",
-			"Rev": "6ece93cf382c14e46811183fa30a43afe4852057"
+			"Rev": "696416a600cd5c1cfc4d9decd26991876c855187"
 		},
 		{
 			"ImportPath": "k8s.io/client-go/discovery",

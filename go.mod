@@ -7,7 +7,7 @@ go 1.13
 require (
 	k8s.io/api v0.0.0-20200209065837-d5ab0ddd8b73
 	k8s.io/apimachinery v0.0.0-20200209065656-fb45917aae8b
-	k8s.io/client-go v0.0.0-20200209070100-c44f517f891f
+	k8s.io/client-go v0.0.0-20200209070101-af50d22222d3
 	k8s.io/klog v1.0.0
 	k8s.io/utils v0.0.0-20191217005138-9e5e9d854fcc
 )
@@ -17,5 +17,5 @@ replace (
 	golang.org/x/tools => golang.org/x/tools v0.0.0-20190821162956-65e3620a7ae7 // pinned to release-branch.go1.13
 	k8s.io/api => k8s.io/api v0.0.0-20200209065837-d5ab0ddd8b73
 	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20200209065656-fb45917aae8b
-	k8s.io/client-go => k8s.io/client-go v0.0.0-20200209070100-c44f517f891f
+	k8s.io/client-go => k8s.io/client-go v0.0.0-20200209070101-af50d22222d3
 )

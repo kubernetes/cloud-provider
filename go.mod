@@ -7,18 +7,17 @@ go 1.13
 require (
 	github.com/google/go-cmp v0.4.0
 	github.com/stretchr/testify v1.4.0
-	k8s.io/api v0.0.0
-	k8s.io/apimachinery v0.0.0
-	k8s.io/client-go v0.0.0
-	k8s.io/component-base v0.0.0
+	k8s.io/api v0.0.0-20200716171716-e4973e079a11
+	k8s.io/apimachinery v0.0.0-20200713125710-cc2fa4f57325
+	k8s.io/client-go v0.0.0-20200721051558-d46605b64ea6
+	k8s.io/component-base v0.0.0-20200721052112-68ffe0bc6540
 	k8s.io/klog/v2 v2.2.0
 	k8s.io/utils v0.0.0-20200720150651-0bdb4ca86cbc
 )
 
 replace (
-	k8s.io/api => ../api
-	k8s.io/apimachinery => ../apimachinery
-	k8s.io/client-go => ../client-go
-	k8s.io/cloud-provider => ../cloud-provider
-	k8s.io/component-base => ../component-base
+	k8s.io/api => k8s.io/api v0.0.0-20200716171716-e4973e079a11
+	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20200713125710-cc2fa4f57325
+	k8s.io/client-go => k8s.io/client-go v0.0.0-20200721051558-d46605b64ea6
+	k8s.io/component-base => k8s.io/component-base v0.0.0-20200721052112-68ffe0bc6540
 )

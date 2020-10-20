@@ -696,7 +696,7 @@
 		},
 		{
 			"ImportPath": "k8s.io/controller-manager",
-			"Rev": "ac32f7f238d7"
+			"Rev": "828015992afa"
 		},
 		{
 			"ImportPath": "k8s.io/gengo",

@@ -908,7 +908,7 @@
 		},
 		{
 			"ImportPath": "k8s.io/apiserver",
-			"Rev": "fc222c743280"
+			"Rev": "0fb509f8a9d6"
 		},
 		{
 			"ImportPath": "k8s.io/client-go",
@@ -916,7 +916,7 @@
 		},
 		{
 			"ImportPath": "k8s.io/component-base",
-			"Rev": "31183c05d879"
+			"Rev": "cb2bdd362651"
 		},
 		{
 			"ImportPath": "k8s.io/controller-manager",

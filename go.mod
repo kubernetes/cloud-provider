@@ -9,7 +9,7 @@ require (
 	github.com/spf13/cobra v1.1.1
 	github.com/spf13/pflag v1.0.5
 	github.com/stretchr/testify v1.4.0
-	k8s.io/api v0.0.0-20201106042650-3e589e9d21e6
+	k8s.io/api v0.0.0-20201109073424-7aff1d675609
 	k8s.io/apimachinery v0.0.0-20201105042036-d67967d70958
 	k8s.io/apiserver v0.0.0-20201107123045-333403406e47
 	k8s.io/client-go v0.0.0-20201107122455-a2cda5636dc9
@@ -20,7 +20,7 @@ require (
 )
 
 replace (
-	k8s.io/api => k8s.io/api v0.0.0-20201106042650-3e589e9d21e6
+	k8s.io/api => k8s.io/api v0.0.0-20201109073424-7aff1d675609
 	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20201105042036-d67967d70958
 	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20201107123045-333403406e47
 	k8s.io/client-go => k8s.io/client-go v0.0.0-20201107122455-a2cda5636dc9

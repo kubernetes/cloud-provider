@@ -912,11 +912,11 @@
 		},
 		{
 			"ImportPath": "k8s.io/apimachinery",
-			"Rev": "8f01ffc4dcb8"
+			"Rev": "15c5dba13c59"
 		},
 		{
 			"ImportPath": "k8s.io/apiserver",
-			"Rev": "93ffe41e75d9"
+			"Rev": "b4d61d9c5c43"
 		},
 		{
 			"ImportPath": "k8s.io/client-go",

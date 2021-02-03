@@ -76,7 +76,7 @@
 		},
 		{
 			"ImportPath": "github.com/NYTimes/gziphandler",
-			"Rev": "56545f4a5d46"
+			"Rev": "v1.1.1"
 		},
 		{
 			"ImportPath": "github.com/OneOfOne/xxhash",
@@ -920,11 +920,11 @@
 		},
 		{
 			"ImportPath": "k8s.io/apiserver",
-			"Rev": "4cca99e7fbc5"
+			"Rev": "aca5ec67039c"
 		},
 		{
 			"ImportPath": "k8s.io/client-go",
-			"Rev": "3147a30d7bb5"
+			"Rev": "93ce9718ffcd"
 		},
 		{
 			"ImportPath": "k8s.io/component-base",
@@ -932,7 +932,7 @@
 		},
 		{
 			"ImportPath": "k8s.io/controller-manager",
-			"Rev": "0787fc64ca4a"
+			"Rev": "29c9515e3c7e"
 		},
 		{
 			"ImportPath": "k8s.io/gengo",

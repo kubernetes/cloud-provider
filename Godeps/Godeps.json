@@ -924,11 +924,11 @@
 		},
 		{
 			"ImportPath": "k8s.io/apiserver",
-			"Rev": "cba9cd88c4ae"
+			"Rev": "42edede12754"
 		},
 		{
 			"ImportPath": "k8s.io/client-go",
-			"Rev": "0bb6464b1348"
+			"Rev": "945ba7136308"
 		},
 		{
 			"ImportPath": "k8s.io/component-base",

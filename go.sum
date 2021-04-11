@@ -670,8 +670,8 @@ honnef.co/go/tools v0.0.1-2019.2.3/go.mod h1:a3bituU0lyd329TUQxRnasdCoJDkEUEAqEt
 honnef.co/go/tools v0.0.1-2020.1.3/go.mod h1:X/FiERA/W4tHapMX5mGpAtMSVEeEUOyHaw9vFzvIQ3k=
 k8s.io/api v0.0.0-20210411031832-6eed676bc189/go.mod h1:JXXrMe9Wof3EUw/ssiQP6ll7CtQlIlNU2svwStG2DMg=
 k8s.io/apimachinery v0.0.0-20210411031630-d8cdd62f18c3/go.mod h1:CRK4uy8GKqwLtMa4Gj9i/B2EBjcqOsuvwP2xZJWUwmk=
-k8s.io/apiserver v0.0.0-20210411033040-cba9cd88c4ae/go.mod h1:ZHAjdFoIgHDKd0yAD6ya8pvCsuYESFy+IkW2TSR7o7I=
-k8s.io/client-go v0.0.0-20210411032117-0bb6464b1348/go.mod h1:eNM4jkRT9u9brnTVu+nC+EVJQmxvEgtoC0ZyPrfG3pU=
+k8s.io/apiserver v0.0.0-20210411033042-42edede12754/go.mod h1:ZHAjdFoIgHDKd0yAD6ya8pvCsuYESFy+IkW2TSR7o7I=
+k8s.io/client-go v0.0.0-20210411032119-945ba7136308/go.mod h1:eNM4jkRT9u9brnTVu+nC+EVJQmxvEgtoC0ZyPrfG3pU=
 k8s.io/component-base v0.0.0-20210411032642-18d65a503ea1/go.mod h1:PRyCZLq8ZOPvC66ZNBDGORsa/8LqizoWzwHZkyxgspw=
 k8s.io/controller-manager v0.0.0-20210411034739-a7c712bd6b9e/go.mod h1:vfclNToLxWjsRVAXz9NacVmcwkdg4enexqMqp7NmB3g=
 k8s.io/gengo v0.0.0-20200413195148-3a45101e95ac/go.mod h1:ezvh/TsK7cY6rbqRK0oQQ8IAqLxYwwyPxAX1Pzy0ii0=

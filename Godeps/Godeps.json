@@ -344,7 +344,7 @@
 		},
 		{
 			"ImportPath": "github.com/googleapis/gnostic",
-			"Rev": "v0.4.1"
+			"Rev": "v0.5.1"
 		},
 		{
 			"ImportPath": "github.com/gopherjs/gopherjs",
@@ -723,6 +723,10 @@
 			"Rev": "v1.7.0"
 		},
 		{
+			"ImportPath": "github.com/stoewer/go-strcase",
+			"Rev": "v1.2.0"
+		},
+		{
 			"ImportPath": "github.com/stretchr/objx",
 			"Rev": "v0.2.0"
 		},
@@ -908,7 +912,7 @@
 		},
 		{
 			"ImportPath": "gopkg.in/yaml.v3",
-			"Rev": "9f266ea9e77c"
+			"Rev": "eeeca48fe776"
 		},
 		{
 			"ImportPath": "gotest.tools/v3",
@@ -920,27 +924,27 @@
 		},
 		{
 			"ImportPath": "k8s.io/api",
-			"Rev": "424177a9741f"
+			"Rev": "e993e0004b6d"
 		},
 		{
 			"ImportPath": "k8s.io/apimachinery",
-			"Rev": "f2987aa1dd04"
+			"Rev": "37b6f01a7c3f"
 		},
 		{
 			"ImportPath": "k8s.io/apiserver",
-			"Rev": "781f4a410756"
+			"Rev": "0be3b216342a"
 		},
 		{
 			"ImportPath": "k8s.io/client-go",
-			"Rev": "44bedf8611f1"
+			"Rev": "bfec2914ea57"
 		},
 		{
 			"ImportPath": "k8s.io/component-base",
-			"Rev": "a57cc3fac704"
+			"Rev": "460e8c72807d"
 		},
 		{
 			"ImportPath": "k8s.io/controller-manager",
-			"Rev": "a1c32231d71b"
+			"Rev": "49c7a765ff0f"
 		},
 		{
 			"ImportPath": "k8s.io/gengo",
@@ -952,7 +956,7 @@
 		},
 		{
 			"ImportPath": "k8s.io/kube-openapi",
-			"Rev": "591a79e4bda7"
+			"Rev": "1a6458611d18"
 		},
 		{
 			"ImportPath": "k8s.io/utils",

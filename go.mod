@@ -27,3 +27,5 @@ replace (
 	k8s.io/component-base => k8s.io/component-base v0.0.0-20211111075838-9d3f2a46984e
 	k8s.io/controller-manager => k8s.io/controller-manager v0.0.0-20211111085743-8f7ac128ef7c
 )
+
+replace k8s.io/component-helpers => k8s.io/component-helpers v0.0.0-20211111080127-5e76a3d8c9dc

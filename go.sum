@@ -957,6 +957,8 @@ k8s.io/client-go v0.0.0-20211111073227-e627be7959e7 h1:M/jv2hr7VfZjKhWEs6oIDJgno
 k8s.io/client-go v0.0.0-20211111073227-e627be7959e7/go.mod h1:vbhSM158IevUkKoqIxagoDYdB9XfHacEyDtKBlug+3g=
 k8s.io/component-base v0.0.0-20211111075655-ae7620c245bc h1:KzQZPIniySd4WlVRJ2XOo71Dlagq4hwDAlr5SIgMpwg=
 k8s.io/component-base v0.0.0-20211111075655-ae7620c245bc/go.mod h1:1FNCGI8+JFGNYTnOJidyT0C6gBaT3hZp0P5Nv/9NKr8=
+k8s.io/component-helpers v0.0.0-20211112155227-f6f6db02ccda h1:xRczbjh1GdYEWIB5fSfhtp0BrPxlgdTU5Kg1Qcis47g=
+k8s.io/component-helpers v0.0.0-20211112155227-f6f6db02ccda/go.mod h1:l09fxADyldPge7DGxb+fkLNcs3yj0OR9w/NVY76ejB8=
 k8s.io/controller-manager v0.0.0-20211111085626-0738e414f11e h1:d8hUQQfd9Y0cikTed6zo3YpV5XQwg7rtI1HrvWZ3meE=
 k8s.io/controller-manager v0.0.0-20211111085626-0738e414f11e/go.mod h1:Liv0M0hksAQRMvU8Afn6jDeCXpkfQUZfFmCF2lQHnZw=
 k8s.io/gengo v0.0.0-20210813121822-485abfe95c7c/go.mod h1:FiNAH4ZV3gBg2Kwh89tzAEV2be7d5xI0vBa/VySYy3E=

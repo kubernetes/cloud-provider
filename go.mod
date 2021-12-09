@@ -9,23 +9,23 @@ require (
 	github.com/spf13/cobra v1.2.1
 	github.com/spf13/pflag v1.0.5
 	github.com/stretchr/testify v1.7.0
-	k8s.io/api v0.0.0-20211203085948-25b7aa9e86de
-	k8s.io/apimachinery v0.0.0-20211203013834-5f072755815a
-	k8s.io/apiserver v0.0.0-20211203093342-9efd239b452b
-	k8s.io/client-go v0.0.0-20211203090726-d85d0d914a32
-	k8s.io/component-base v0.0.0-20211203092501-60bec488f080
-	k8s.io/component-helpers v0.0.0-20211203092847-29fd9692ca35
-	k8s.io/controller-manager v0.0.0-20211203102955-188c7b8675f5
+	k8s.io/api v0.0.0-20211209050727-ec2f4f7d4ad2
+	k8s.io/apimachinery v0.0.0-20211209050516-32df71429c45
+	k8s.io/apiserver v0.0.0-20211209052057-d7b980d8c9b2
+	k8s.io/client-go v0.0.0-20211209051034-8bffd27f0ac1
+	k8s.io/component-base v0.0.0-20211209051607-866e20f9667e
+	k8s.io/component-helpers v0.0.0-20211209051716-f656321c5e96
+	k8s.io/controller-manager v0.0.0-20211209053802-c9f1ca44c85e
 	k8s.io/klog/v2 v2.30.0
-	k8s.io/utils v0.0.0-20210930125809-cb0fa318a74b
+	k8s.io/utils v0.0.0-20211116205334-6203023598ed
 )
 
 replace (
-	k8s.io/api => k8s.io/api v0.0.0-20211203085948-25b7aa9e86de
-	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20211203013834-5f072755815a
-	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20211203093342-9efd239b452b
-	k8s.io/client-go => k8s.io/client-go v0.0.0-20211203090726-d85d0d914a32
-	k8s.io/component-base => k8s.io/component-base v0.0.0-20211203092501-60bec488f080
-	k8s.io/component-helpers => k8s.io/component-helpers v0.0.0-20211203092847-29fd9692ca35
-	k8s.io/controller-manager => k8s.io/controller-manager v0.0.0-20211203102955-188c7b8675f5
+	k8s.io/api => k8s.io/api v0.0.0-20211209050727-ec2f4f7d4ad2
+	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20211209050516-32df71429c45
+	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20211209052057-d7b980d8c9b2
+	k8s.io/client-go => k8s.io/client-go v0.0.0-20211209051034-8bffd27f0ac1
+	k8s.io/component-base => k8s.io/component-base v0.0.0-20211209051607-866e20f9667e
+	k8s.io/component-helpers => k8s.io/component-helpers v0.0.0-20211209051716-f656321c5e96
+	k8s.io/controller-manager => k8s.io/controller-manager v0.0.0-20211209053802-c9f1ca44c85e
 )

@@ -9,13 +9,13 @@ require (
 	github.com/spf13/cobra v1.4.0
 	github.com/spf13/pflag v1.0.5
 	github.com/stretchr/testify v1.7.0
-	k8s.io/api v0.0.0-20220609195407-d50b1bc97ca6
-	k8s.io/apimachinery v0.0.0-20220610234641-d407afb45eb7
-	k8s.io/apiserver v0.0.0-20220611000209-3972a264a19b
-	k8s.io/client-go v0.0.0-20220610235149-87a5b7b3b7a4
-	k8s.io/component-base v0.0.0-20220610235728-dbe7e0383ddc
-	k8s.io/component-helpers v0.0.0-20220610235835-f0f45d874ca8
-	k8s.io/controller-manager v0.0.0-20220611001947-803ef2ddcf5b
+	k8s.io/api v0.0.0
+	k8s.io/apimachinery v0.0.0
+	k8s.io/apiserver v0.0.0
+	k8s.io/client-go v0.0.0
+	k8s.io/component-base v0.0.0
+	k8s.io/component-helpers v0.0.0
+	k8s.io/controller-manager v0.0.0
 	k8s.io/klog/v2 v2.60.1
 	k8s.io/utils v0.0.0-20220210201930-3a6ce19ff2f9
 )
@@ -95,7 +95,7 @@ require (
 	gopkg.in/inf.v0 v0.9.1 // indirect
 	gopkg.in/natefinch/lumberjack.v2 v2.0.0 // indirect
 	gopkg.in/yaml.v2 v2.4.0 // indirect
-	gopkg.in/yaml.v3 v3.0.0-20210107192922-496545a6307b // indirect
+	gopkg.in/yaml.v3 v3.0.1 // indirect
 	k8s.io/kube-openapi v0.0.0-20220603121420-31174f50af60 // indirect
 	sigs.k8s.io/apiserver-network-proxy/konnectivity-client v0.0.30 // indirect
 	sigs.k8s.io/json v0.0.0-20211208200746-9f7c6b3444d2 // indirect
@@ -104,11 +104,12 @@ require (
 )
 
 replace (
-	k8s.io/api => k8s.io/api v0.0.0-20220609195407-d50b1bc97ca6
-	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20220610234641-d407afb45eb7
-	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20220611000209-3972a264a19b
-	k8s.io/client-go => k8s.io/client-go v0.0.0-20220610235149-87a5b7b3b7a4
-	k8s.io/component-base => k8s.io/component-base v0.0.0-20220610235728-dbe7e0383ddc
-	k8s.io/component-helpers => k8s.io/component-helpers v0.0.0-20220610235835-f0f45d874ca8
-	k8s.io/controller-manager => k8s.io/controller-manager v0.0.0-20220611001947-803ef2ddcf5b
+	k8s.io/api => ../api
+	k8s.io/apimachinery => ../apimachinery
+	k8s.io/apiserver => ../apiserver
+	k8s.io/client-go => ../client-go
+	k8s.io/cloud-provider => ../cloud-provider
+	k8s.io/component-base => ../component-base
+	k8s.io/component-helpers => ../component-helpers
+	k8s.io/controller-manager => ../controller-manager
 )

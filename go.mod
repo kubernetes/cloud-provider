@@ -5,17 +5,17 @@ module k8s.io/cloud-provider
 go 1.18
 
 require (
-	github.com/google/go-cmp v0.5.5
+	github.com/google/go-cmp v0.5.6
 	github.com/spf13/cobra v1.4.0
 	github.com/spf13/pflag v1.0.5
 	github.com/stretchr/testify v1.7.0
-	k8s.io/api v0.0.0-20220613074849-6b0201da8019
-	k8s.io/apimachinery v0.0.0-20220613074648-b90ea24d2fd6
-	k8s.io/apiserver v0.0.0-20220614075808-d4d8126908a9
-	k8s.io/client-go v0.0.0-20220613195210-2a9f95519059
-	k8s.io/component-base v0.0.0-20220613195522-9227fb076997
-	k8s.io/component-helpers v0.0.0-20220613195630-b1940738c8fa
-	k8s.io/controller-manager v0.0.0-20220614081425-d9dcbd623122
+	k8s.io/api v0.0.0-20220614194928-60387f6ceb7c
+	k8s.io/apimachinery v0.0.0-20220614194717-c5be38573c73
+	k8s.io/apiserver v0.0.0-20220614200351-5e46aae63f47
+	k8s.io/client-go v0.0.0-20220614195233-830d4c462418
+	k8s.io/component-base v0.0.0-20220614195841-c528ad5e18a8
+	k8s.io/component-helpers v0.0.0-20220614195946-92e231fe1c01
+	k8s.io/controller-manager v0.0.0-20220614202144-533be65d8cdf
 	k8s.io/klog/v2 v2.60.1
 	k8s.io/utils v0.0.0-20220210201930-3a6ce19ff2f9
 )
@@ -90,7 +90,7 @@ require (
 	golang.org/x/time v0.0.0-20220210224613-90d013bbcef8 // indirect
 	google.golang.org/appengine v1.6.7 // indirect
 	google.golang.org/genproto v0.0.0-20220310185008-1973136f34c6 // indirect
-	google.golang.org/grpc v1.44.0 // indirect
+	google.golang.org/grpc v1.47.0 // indirect
 	google.golang.org/protobuf v1.27.1 // indirect
 	gopkg.in/inf.v0 v0.9.1 // indirect
 	gopkg.in/natefinch/lumberjack.v2 v2.0.0 // indirect
@@ -104,11 +104,11 @@ require (
 )
 
 replace (
-	k8s.io/api => k8s.io/api v0.0.0-20220613074849-6b0201da8019
-	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20220613074648-b90ea24d2fd6
-	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20220614075808-d4d8126908a9
-	k8s.io/client-go => k8s.io/client-go v0.0.0-20220613195210-2a9f95519059
-	k8s.io/component-base => k8s.io/component-base v0.0.0-20220613195522-9227fb076997
-	k8s.io/component-helpers => k8s.io/component-helpers v0.0.0-20220613195630-b1940738c8fa
-	k8s.io/controller-manager => k8s.io/controller-manager v0.0.0-20220614081425-d9dcbd623122
+	k8s.io/api => k8s.io/api v0.0.0-20220614194928-60387f6ceb7c
+	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20220614194717-c5be38573c73
+	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20220614200351-5e46aae63f47
+	k8s.io/client-go => k8s.io/client-go v0.0.0-20220614195233-830d4c462418
+	k8s.io/component-base => k8s.io/component-base v0.0.0-20220614195841-c528ad5e18a8
+	k8s.io/component-helpers => k8s.io/component-helpers v0.0.0-20220614195946-92e231fe1c01
+	k8s.io/controller-manager => k8s.io/controller-manager v0.0.0-20220614202144-533be65d8cdf
 )

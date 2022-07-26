@@ -11,11 +11,11 @@ require (
 	github.com/stretchr/testify v1.7.0
 	k8s.io/api v0.0.0-20220725160253-f6f0d0e54216
 	k8s.io/apimachinery v0.0.0-20220722160307-915d89afb4cb
-	k8s.io/apiserver v0.0.0-20220726001125-077c6def5f54
+	k8s.io/apiserver v0.0.0-20220726161224-7f7a01acf81a
 	k8s.io/client-go v0.0.0-20220722162234-b2097e607c19
-	k8s.io/component-base v0.0.0-20220722164051-d68b4289d0d7
+	k8s.io/component-base v0.0.0-20220726160733-a30295a8559b
 	k8s.io/component-helpers v0.0.0-20220722164708-7cd6476d8900
-	k8s.io/controller-manager v0.0.0-20220722181801-5c4e89968a69
+	k8s.io/controller-manager v0.0.0-20220726163014-88c00231d82b
 	k8s.io/klog/v2 v2.70.1
 	k8s.io/utils v0.0.0-20220210201930-3a6ce19ff2f9
 )
@@ -52,7 +52,7 @@ require (
 	github.com/josharian/intern v1.0.0 // indirect
 	github.com/json-iterator/go v1.1.12 // indirect
 	github.com/mailru/easyjson v0.7.6 // indirect
-	github.com/matttproud/golang_protobuf_extensions v1.0.2-0.20181231171920-c182affec369 // indirect
+	github.com/matttproud/golang_protobuf_extensions v1.0.1 // indirect
 	github.com/moby/term v0.0.0-20210619224110-3f7ff695adc6 // indirect
 	github.com/modern-go/concurrent v0.0.0-20180306012644-bacd9c7ef1dd // indirect
 	github.com/modern-go/reflect2 v1.0.2 // indirect
@@ -106,9 +106,9 @@ require (
 replace (
 	k8s.io/api => k8s.io/api v0.0.0-20220725160253-f6f0d0e54216
 	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20220722160307-915d89afb4cb
-	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20220726001125-077c6def5f54
+	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20220726161224-7f7a01acf81a
 	k8s.io/client-go => k8s.io/client-go v0.0.0-20220722162234-b2097e607c19
-	k8s.io/component-base => k8s.io/component-base v0.0.0-20220722164051-d68b4289d0d7
+	k8s.io/component-base => k8s.io/component-base v0.0.0-20220726160733-a30295a8559b
 	k8s.io/component-helpers => k8s.io/component-helpers v0.0.0-20220722164708-7cd6476d8900
-	k8s.io/controller-manager => k8s.io/controller-manager v0.0.0-20220722181801-5c4e89968a69
+	k8s.io/controller-manager => k8s.io/controller-manager v0.0.0-20220726163014-88c00231d82b
 )

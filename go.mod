@@ -6,16 +6,16 @@ go 1.19
 
 require (
 	github.com/google/go-cmp v0.5.9
-	github.com/spf13/cobra v1.5.0
+	github.com/spf13/cobra v1.4.0
 	github.com/spf13/pflag v1.0.5
 	github.com/stretchr/testify v1.8.0
-	k8s.io/api v0.0.0-20220920024110-052d63f042d1
-	k8s.io/apimachinery v0.0.0-20220920023906-f8159af4957e
-	k8s.io/apiserver v0.0.0-20220920151341-d0606e7fc7a8
-	k8s.io/client-go v0.0.0-20220920024403-f7c9c639d451
-	k8s.io/component-base v0.0.0-20220920150520-8d91423e4ed5
-	k8s.io/component-helpers v0.0.0-20220920025106-53ccb1c5fe17
-	k8s.io/controller-manager v0.0.0-20220920160806-2a18eb752d6d
+	k8s.io/api v0.0.0
+	k8s.io/apimachinery v0.0.0
+	k8s.io/apiserver v0.0.0
+	k8s.io/client-go v0.0.0
+	k8s.io/component-base v0.0.0
+	k8s.io/component-helpers v0.0.0
+	k8s.io/controller-manager v0.0.0
 	k8s.io/klog/v2 v2.80.1
 	k8s.io/utils v0.0.0-20220728103510-ee6ede2d64ed
 )
@@ -35,7 +35,7 @@ require (
 	github.com/emicklei/go-restful/v3 v3.9.0 // indirect
 	github.com/evanphx/json-patch v4.12.0+incompatible // indirect
 	github.com/felixge/httpsnoop v1.0.3 // indirect
-	github.com/fsnotify/fsnotify v1.4.9 // indirect
+	github.com/fsnotify/fsnotify v1.5.4 // indirect
 	github.com/go-logr/logr v1.2.3 // indirect
 	github.com/go-logr/stdr v1.2.2 // indirect
 	github.com/go-openapi/jsonpointer v0.19.5 // indirect
@@ -105,11 +105,12 @@ require (
 )
 
 replace (
-	k8s.io/api => k8s.io/api v0.0.0-20220920024110-052d63f042d1
-	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20220920023906-f8159af4957e
-	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20220920151341-d0606e7fc7a8
-	k8s.io/client-go => k8s.io/client-go v0.0.0-20220920024403-f7c9c639d451
-	k8s.io/component-base => k8s.io/component-base v0.0.0-20220920150520-8d91423e4ed5
-	k8s.io/component-helpers => k8s.io/component-helpers v0.0.0-20220920025106-53ccb1c5fe17
-	k8s.io/controller-manager => k8s.io/controller-manager v0.0.0-20220920160806-2a18eb752d6d
+	k8s.io/api => ../api
+	k8s.io/apimachinery => ../apimachinery
+	k8s.io/apiserver => ../apiserver
+	k8s.io/client-go => ../client-go
+	k8s.io/cloud-provider => ../cloud-provider
+	k8s.io/component-base => ../component-base
+	k8s.io/component-helpers => ../component-helpers
+	k8s.io/controller-manager => ../controller-manager
 )

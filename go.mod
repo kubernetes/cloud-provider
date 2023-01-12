@@ -9,13 +9,13 @@ require (
 	github.com/spf13/cobra v1.4.0
 	github.com/spf13/pflag v1.0.5
 	github.com/stretchr/testify v1.8.0
-	k8s.io/api v0.0.0-20221223023026-8ab18bcbebb1
-	k8s.io/apimachinery v0.0.0-20221223020506-cbd9e8b8f027
-	k8s.io/apiserver v0.0.0-20230110181543-9e6a2c4139b6
-	k8s.io/client-go v0.0.0-20221223031609-fa144945a15f
-	k8s.io/component-base v0.0.0-20221223033407-6b456deee75a
-	k8s.io/component-helpers v0.0.0-20221223034630-6c8accf5182e
-	k8s.io/controller-manager v0.0.0-20230110195519-0a6209317024
+	k8s.io/api v0.0.0-20230112063057-8b5496b74fa0
+	k8s.io/apimachinery v0.0.0-20230112061400-6c076bd8b776
+	k8s.io/apiserver v0.0.0-20230112072953-9333fb751db5
+	k8s.io/client-go v0.0.0-20230112065157-816bb19ea7bb
+	k8s.io/component-base v0.0.0-20230112070501-6cc853a1632f
+	k8s.io/component-helpers v0.0.0-20230112070806-d1b24cfbb7ad
+	k8s.io/controller-manager v0.0.0-20230112085634-11fbfcc5455e
 	k8s.io/klog/v2 v2.60.1
 	k8s.io/utils v0.0.0-20220210201930-3a6ce19ff2f9
 )
@@ -99,16 +99,16 @@ require (
 	k8s.io/kube-openapi v0.0.0-20220328201542-3ee0da9b0b42 // indirect
 	sigs.k8s.io/apiserver-network-proxy/konnectivity-client v0.0.35 // indirect
 	sigs.k8s.io/json v0.0.0-20211208200746-9f7c6b3444d2 // indirect
-	sigs.k8s.io/structured-merge-diff/v4 v4.2.1 // indirect
+	sigs.k8s.io/structured-merge-diff/v4 v4.2.3 // indirect
 	sigs.k8s.io/yaml v1.2.0 // indirect
 )
 
 replace (
-	k8s.io/api => k8s.io/api v0.0.0-20221223023026-8ab18bcbebb1
-	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20221223020506-cbd9e8b8f027
-	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20230110181543-9e6a2c4139b6
-	k8s.io/client-go => k8s.io/client-go v0.0.0-20221223031609-fa144945a15f
-	k8s.io/component-base => k8s.io/component-base v0.0.0-20221223033407-6b456deee75a
-	k8s.io/component-helpers => k8s.io/component-helpers v0.0.0-20221223034630-6c8accf5182e
-	k8s.io/controller-manager => k8s.io/controller-manager v0.0.0-20230110195519-0a6209317024
+	k8s.io/api => k8s.io/api v0.0.0-20230112063057-8b5496b74fa0
+	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20230112061400-6c076bd8b776
+	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20230112072953-9333fb751db5
+	k8s.io/client-go => k8s.io/client-go v0.0.0-20230112065157-816bb19ea7bb
+	k8s.io/component-base => k8s.io/component-base v0.0.0-20230112070501-6cc853a1632f
+	k8s.io/component-helpers => k8s.io/component-helpers v0.0.0-20230112070806-d1b24cfbb7ad
+	k8s.io/controller-manager => k8s.io/controller-manager v0.0.0-20230112085634-11fbfcc5455e
 )

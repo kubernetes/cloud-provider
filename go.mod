@@ -13,7 +13,7 @@ require (
 	k8s.io/apimachinery v0.0.0-20230112182327-235f5123de4a
 	k8s.io/apiserver v0.0.0-20230112193528-c1d39b78f95c
 	k8s.io/client-go v0.0.0-20230112184258-895a515b59eb
-	k8s.io/component-base v0.0.0-20230112192322-5d7d9c1215cf
+	k8s.io/component-base v0.0.0-20230112192324-33f62c7b2818
 	k8s.io/component-helpers v0.0.0-20230112192807-2c4994331fb8
 	k8s.io/controller-manager v0.0.0-20230112212622-b6f093a9344d
 	k8s.io/klog/v2 v2.80.1
@@ -55,7 +55,7 @@ require (
 	github.com/json-iterator/go v1.1.12 // indirect
 	github.com/mailru/easyjson v0.7.7 // indirect
 	github.com/matttproud/golang_protobuf_extensions v1.0.2 // indirect
-	github.com/moby/term v0.0.0-20220808134915-39b0c02b01ae // indirect
+	github.com/moby/term v0.0.0-20221205130635-1aeaba878587 // indirect
 	github.com/modern-go/concurrent v0.0.0-20180306012644-bacd9c7ef1dd // indirect
 	github.com/modern-go/reflect2 v1.0.2 // indirect
 	github.com/munnerz/goautoneg v0.0.0-20191010083416-a7dc8b61c822 // indirect
@@ -111,7 +111,7 @@ replace (
 	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20230112182327-235f5123de4a
 	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20230112193528-c1d39b78f95c
 	k8s.io/client-go => k8s.io/client-go v0.0.0-20230112184258-895a515b59eb
-	k8s.io/component-base => k8s.io/component-base v0.0.0-20230112192322-5d7d9c1215cf
+	k8s.io/component-base => k8s.io/component-base v0.0.0-20230112192324-33f62c7b2818
 	k8s.io/component-helpers => k8s.io/component-helpers v0.0.0-20230112192807-2c4994331fb8
 	k8s.io/controller-manager => k8s.io/controller-manager v0.0.0-20230112212622-b6f093a9344d
 	k8s.io/kms => k8s.io/kms v0.0.0-20230107081413-fd373b9a5aa5

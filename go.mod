@@ -9,13 +9,13 @@ require (
 	github.com/spf13/cobra v1.4.0
 	github.com/spf13/pflag v1.0.5
 	github.com/stretchr/testify v1.8.0
-	k8s.io/api v0.0.0-20221207015936-be0bf1dc3a1b
-	k8s.io/apimachinery v0.0.0-20221207015236-526d075b19f9
-	k8s.io/apiserver v0.0.0-20230110182026-4282a8965c14
-	k8s.io/client-go v0.0.0-20221213000309-ab9a2e819915
-	k8s.io/component-base v0.0.0-20221207023111-de5bbf2169a4
-	k8s.io/component-helpers v0.0.0-20221207023413-4f933304c7ad
-	k8s.io/controller-manager v0.0.0-20230110195658-26a5a31c421c
+	k8s.io/api v0.25.7-rc.0
+	k8s.io/apimachinery v0.25.7-rc.0
+	k8s.io/apiserver v0.25.7-rc.0
+	k8s.io/client-go v0.25.7-rc.0
+	k8s.io/component-base v0.25.7-rc.0
+	k8s.io/component-helpers v0.25.7-rc.0
+	k8s.io/controller-manager v0.25.7-rc.0
 	k8s.io/klog/v2 v2.70.1
 	k8s.io/utils v0.0.0-20220728103510-ee6ede2d64ed
 )
@@ -104,11 +104,11 @@ require (
 )
 
 replace (
-	k8s.io/api => k8s.io/api v0.0.0-20221207015936-be0bf1dc3a1b
-	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20221207015236-526d075b19f9
-	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20230110182026-4282a8965c14
-	k8s.io/client-go => k8s.io/client-go v0.0.0-20221213000309-ab9a2e819915
-	k8s.io/component-base => k8s.io/component-base v0.0.0-20221207023111-de5bbf2169a4
-	k8s.io/component-helpers => k8s.io/component-helpers v0.0.0-20221207023413-4f933304c7ad
-	k8s.io/controller-manager => k8s.io/controller-manager v0.0.0-20230110195658-26a5a31c421c
+	k8s.io/api => k8s.io/api v0.25.7-rc.0
+	k8s.io/apimachinery => k8s.io/apimachinery v0.25.7-rc.0
+	k8s.io/apiserver => k8s.io/apiserver v0.25.7-rc.0
+	k8s.io/client-go => k8s.io/client-go v0.25.7-rc.0
+	k8s.io/component-base => k8s.io/component-base v0.25.7-rc.0
+	k8s.io/component-helpers => k8s.io/component-helpers v0.25.7-rc.0
+	k8s.io/controller-manager => k8s.io/controller-manager v0.25.7-rc.0
 )

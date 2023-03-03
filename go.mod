@@ -9,13 +9,13 @@ require (
 	github.com/spf13/cobra v1.6.0
 	github.com/spf13/pflag v1.0.5
 	github.com/stretchr/testify v1.8.1
-	k8s.io/api v0.0.0-20230302120942-f6c2559ad4f4
-	k8s.io/apimachinery v0.0.0-20230302115847-76eb944e266d
-	k8s.io/apiserver v0.0.0-20230303083332-089e06c24477
-	k8s.io/client-go v0.0.0-20230303000145-3f4372de09cb
-	k8s.io/component-base v0.0.0-20230302013528-cdd3d3a94e73
-	k8s.io/component-helpers v0.0.0-20230302203602-93d6c48079f4
-	k8s.io/controller-manager v0.0.0-20230303090134-3d9191423f16
+	k8s.io/api v0.0.0-20230303235756-fc1b77c3f4ab
+	k8s.io/apimachinery v0.0.0-20230303235433-5b1cff80ea06
+	k8s.io/apiserver v0.0.0-20230304002344-4d04ac1ed050
+	k8s.io/client-go v0.0.0-20230304000202-d39f8291fc57
+	k8s.io/component-base v0.0.0-20230304000858-ddedd087ad1e
+	k8s.io/component-helpers v0.0.0-20230304001010-94a6fd9a7905
+	k8s.io/controller-manager v0.0.0-20230304010310-387576b93bbd
 	k8s.io/klog/v2 v2.90.1
 	k8s.io/utils v0.0.0-20230209194617-a36077c30491
 )
@@ -99,21 +99,21 @@ require (
 	gopkg.in/natefinch/lumberjack.v2 v2.0.0 // indirect
 	gopkg.in/yaml.v2 v2.4.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
-	k8s.io/kms v0.0.0-20230302204122-57de6be5f4a6 // indirect
-	k8s.io/kube-openapi v0.0.0-20230123231816-1cb3ae25d79a // indirect
+	k8s.io/kms v0.0.0-20230303123242-0b3f9dde5fcd // indirect
+	k8s.io/kube-openapi v0.0.0-20230303024457-afdc3dddf62d // indirect
 	sigs.k8s.io/apiserver-network-proxy/konnectivity-client v0.1.1 // indirect
-	sigs.k8s.io/json v0.0.0-20220713155537-f223a00ba0e2 // indirect
+	sigs.k8s.io/json v0.0.0-20221116044647-bc3834ca7abd // indirect
 	sigs.k8s.io/structured-merge-diff/v4 v4.2.3 // indirect
 	sigs.k8s.io/yaml v1.3.0 // indirect
 )
 
 replace (
-	k8s.io/api => k8s.io/api v0.0.0-20230302120942-f6c2559ad4f4
-	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20230302115847-76eb944e266d
-	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20230303083332-089e06c24477
-	k8s.io/client-go => k8s.io/client-go v0.0.0-20230303000145-3f4372de09cb
-	k8s.io/component-base => k8s.io/component-base v0.0.0-20230302013528-cdd3d3a94e73
-	k8s.io/component-helpers => k8s.io/component-helpers v0.0.0-20230302203602-93d6c48079f4
-	k8s.io/controller-manager => k8s.io/controller-manager v0.0.0-20230303090134-3d9191423f16
-	k8s.io/kms => k8s.io/kms v0.0.0-20230302204122-57de6be5f4a6
+	k8s.io/api => k8s.io/api v0.0.0-20230303235756-fc1b77c3f4ab
+	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20230303235433-5b1cff80ea06
+	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20230304002344-4d04ac1ed050
+	k8s.io/client-go => k8s.io/client-go v0.0.0-20230304000202-d39f8291fc57
+	k8s.io/component-base => k8s.io/component-base v0.0.0-20230304000858-ddedd087ad1e
+	k8s.io/component-helpers => k8s.io/component-helpers v0.0.0-20230304001010-94a6fd9a7905
+	k8s.io/controller-manager => k8s.io/controller-manager v0.0.0-20230304010310-387576b93bbd
+	k8s.io/kms => k8s.io/kms v0.0.0-20230303123242-0b3f9dde5fcd
 )

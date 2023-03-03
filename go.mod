@@ -9,13 +9,13 @@ require (
 	github.com/spf13/cobra v1.6.0
 	github.com/spf13/pflag v1.0.5
 	github.com/stretchr/testify v1.8.1
-	k8s.io/api v0.0.0-20230302011010-42a6c324deb9
-	k8s.io/apimachinery v0.0.0-20230302010315-590a2612ff27
-	k8s.io/apiserver v0.0.0-20230302014631-48f7ac46b43f
-	k8s.io/client-go v0.0.0-20230302011831-91199a69ee5f
-	k8s.io/component-base v0.0.0-20230302013528-cdd3d3a94e73
-	k8s.io/component-helpers v0.0.0-20230302013915-d343dde1efa0
-	k8s.io/controller-manager v0.0.0-20230302024124-0c30ad349144
+	k8s.io/api v0.27.0-alpha.3
+	k8s.io/apimachinery v0.27.0-alpha.3
+	k8s.io/apiserver v0.27.0-alpha.3
+	k8s.io/client-go v0.27.0-alpha.3
+	k8s.io/component-base v0.27.0-alpha.3
+	k8s.io/component-helpers v0.27.0-alpha.3
+	k8s.io/controller-manager v0.27.0-alpha.3
 	k8s.io/klog/v2 v2.90.1
 	k8s.io/utils v0.0.0-20230209194617-a36077c30491
 )
@@ -99,7 +99,7 @@ require (
 	gopkg.in/natefinch/lumberjack.v2 v2.0.0 // indirect
 	gopkg.in/yaml.v2 v2.4.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
-	k8s.io/kms v0.0.0-20230302014152-694b02085e4b // indirect
+	k8s.io/kms v0.27.0-alpha.3 // indirect
 	k8s.io/kube-openapi v0.0.0-20230123231816-1cb3ae25d79a // indirect
 	sigs.k8s.io/apiserver-network-proxy/konnectivity-client v0.1.1 // indirect
 	sigs.k8s.io/json v0.0.0-20220713155537-f223a00ba0e2 // indirect
@@ -108,12 +108,12 @@ require (
 )
 
 replace (
-	k8s.io/api => k8s.io/api v0.0.0-20230302011010-42a6c324deb9
-	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20230302010315-590a2612ff27
-	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20230302014631-48f7ac46b43f
-	k8s.io/client-go => k8s.io/client-go v0.0.0-20230302011831-91199a69ee5f
-	k8s.io/component-base => k8s.io/component-base v0.0.0-20230302013528-cdd3d3a94e73
-	k8s.io/component-helpers => k8s.io/component-helpers v0.0.0-20230302013915-d343dde1efa0
-	k8s.io/controller-manager => k8s.io/controller-manager v0.0.0-20230302024124-0c30ad349144
-	k8s.io/kms => k8s.io/kms v0.0.0-20230302014152-694b02085e4b
+	k8s.io/api => k8s.io/api v0.27.0-alpha.3
+	k8s.io/apimachinery => k8s.io/apimachinery v0.27.0-alpha.3
+	k8s.io/apiserver => k8s.io/apiserver v0.27.0-alpha.3
+	k8s.io/client-go => k8s.io/client-go v0.27.0-alpha.3
+	k8s.io/component-base => k8s.io/component-base v0.27.0-alpha.3
+	k8s.io/component-helpers => k8s.io/component-helpers v0.27.0-alpha.3
+	k8s.io/controller-manager => k8s.io/controller-manager v0.27.0-alpha.3
+	k8s.io/kms => k8s.io/kms v0.27.0-alpha.3
 )

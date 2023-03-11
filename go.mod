@@ -11,11 +11,11 @@ require (
 	github.com/stretchr/testify v1.8.0
 	k8s.io/api v0.0.0-20230215103918-5fd8a44fa3de
 	k8s.io/apimachinery v0.0.0-20230215102121-53ecdf01b997
-	k8s.io/apiserver v0.0.0-20230215123750-68e532d78e3e
-	k8s.io/client-go v0.0.0-20230215113735-62133a9b1819
+	k8s.io/apiserver v0.0.0-20230311062716-0808b2f55419
+	k8s.io/client-go v0.0.0-20230310223448-87720b3719b2
 	k8s.io/component-base v0.0.0-20230215120155-2ee40e7149cb
 	k8s.io/component-helpers v0.0.0-20230215120623-61f4fbca084c
-	k8s.io/controller-manager v0.0.0-20230215143024-87f951056dbb
+	k8s.io/controller-manager v0.0.0-20230311073127-e6d5d1cfff0d
 	k8s.io/klog/v2 v2.80.1
 	k8s.io/utils v0.0.0-20221107191617-1a15be271d1d
 )
@@ -100,7 +100,7 @@ require (
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 	k8s.io/kms v0.0.0-20230215120738-97feddd10b97 // indirect
 	k8s.io/kube-openapi v0.0.0-20221012153701-172d655c2280 // indirect
-	sigs.k8s.io/apiserver-network-proxy/konnectivity-client v0.0.35 // indirect
+	sigs.k8s.io/apiserver-network-proxy/konnectivity-client v0.0.36 // indirect
 	sigs.k8s.io/json v0.0.0-20220713155537-f223a00ba0e2 // indirect
 	sigs.k8s.io/structured-merge-diff/v4 v4.2.3 // indirect
 	sigs.k8s.io/yaml v1.3.0 // indirect
@@ -109,10 +109,10 @@ require (
 replace (
 	k8s.io/api => k8s.io/api v0.0.0-20230215103918-5fd8a44fa3de
 	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20230215102121-53ecdf01b997
-	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20230215123750-68e532d78e3e
-	k8s.io/client-go => k8s.io/client-go v0.0.0-20230215113735-62133a9b1819
+	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20230311062716-0808b2f55419
+	k8s.io/client-go => k8s.io/client-go v0.0.0-20230310223448-87720b3719b2
 	k8s.io/component-base => k8s.io/component-base v0.0.0-20230215120155-2ee40e7149cb
 	k8s.io/component-helpers => k8s.io/component-helpers v0.0.0-20230215120623-61f4fbca084c
-	k8s.io/controller-manager => k8s.io/controller-manager v0.0.0-20230215143024-87f951056dbb
+	k8s.io/controller-manager => k8s.io/controller-manager v0.0.0-20230311073127-e6d5d1cfff0d
 	k8s.io/kms => k8s.io/kms v0.0.0-20230215120738-97feddd10b97
 )

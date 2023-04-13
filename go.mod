@@ -9,13 +9,13 @@ require (
 	github.com/spf13/cobra v1.6.0
 	github.com/spf13/pflag v1.0.5
 	github.com/stretchr/testify v1.8.0
-	k8s.io/api v0.0.0-20230504161039-c9f384e22127
-	k8s.io/apimachinery v0.0.0-20230504155441-b207ce547a90
-	k8s.io/apiserver v0.0.0-20230504174530-f90a1ebf3448
-	k8s.io/client-go v0.0.0-20230504163259-038b381bf689
-	k8s.io/component-base v0.0.0-20230504170251-db961f20ba61
-	k8s.io/component-helpers v0.0.0-20230504170734-31c7039e131b
-	k8s.io/controller-manager v0.0.0-20230504193345-e6612c4f81dd
+	k8s.io/api v0.0.0
+	k8s.io/apimachinery v0.0.0
+	k8s.io/apiserver v0.0.0
+	k8s.io/client-go v0.0.0
+	k8s.io/component-base v0.0.0
+	k8s.io/component-helpers v0.0.0
+	k8s.io/controller-manager v0.0.0
 	k8s.io/klog/v2 v2.80.1
 	k8s.io/utils v0.0.0-20221107191617-1a15be271d1d
 )
@@ -83,12 +83,12 @@ require (
 	go.uber.org/multierr v1.6.0 // indirect
 	go.uber.org/zap v1.19.0 // indirect
 	golang.org/x/crypto v0.1.0 // indirect
-	golang.org/x/net v0.8.0 // indirect
+	golang.org/x/net v0.7.0 // indirect
 	golang.org/x/oauth2 v0.0.0-20220223155221-ee480838109b // indirect
-	golang.org/x/sync v0.1.0 // indirect
-	golang.org/x/sys v0.6.0 // indirect
-	golang.org/x/term v0.6.0 // indirect
-	golang.org/x/text v0.8.0 // indirect
+	golang.org/x/sync v0.0.0-20220722155255-886fb9371eb4 // indirect
+	golang.org/x/sys v0.5.0 // indirect
+	golang.org/x/term v0.5.0 // indirect
+	golang.org/x/text v0.7.0 // indirect
 	golang.org/x/time v0.0.0-20220210224613-90d013bbcef8 // indirect
 	google.golang.org/appengine v1.6.7 // indirect
 	google.golang.org/genproto v0.0.0-20220502173005-c8bf987b8c21 // indirect
@@ -98,21 +98,22 @@ require (
 	gopkg.in/natefinch/lumberjack.v2 v2.0.0 // indirect
 	gopkg.in/yaml.v2 v2.4.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
-	k8s.io/kms v0.0.0-20230504170951-d4d1c139a661 // indirect
+	k8s.io/kms v0.0.0 // indirect
 	k8s.io/kube-openapi v0.0.0-20221012153701-172d655c2280 // indirect
-	sigs.k8s.io/apiserver-network-proxy/konnectivity-client v0.0.36 // indirect
+	sigs.k8s.io/apiserver-network-proxy/konnectivity-client v0.0.37 // indirect
 	sigs.k8s.io/json v0.0.0-20220713155537-f223a00ba0e2 // indirect
 	sigs.k8s.io/structured-merge-diff/v4 v4.2.3 // indirect
 	sigs.k8s.io/yaml v1.3.0 // indirect
 )
 
 replace (
-	k8s.io/api => k8s.io/api v0.0.0-20230504161039-c9f384e22127
-	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20230504155441-b207ce547a90
-	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20230504174530-f90a1ebf3448
-	k8s.io/client-go => k8s.io/client-go v0.0.0-20230504163259-038b381bf689
-	k8s.io/component-base => k8s.io/component-base v0.0.0-20230504170251-db961f20ba61
-	k8s.io/component-helpers => k8s.io/component-helpers v0.0.0-20230504170734-31c7039e131b
-	k8s.io/controller-manager => k8s.io/controller-manager v0.0.0-20230504193345-e6612c4f81dd
-	k8s.io/kms => k8s.io/kms v0.0.0-20230504170951-d4d1c139a661
+	k8s.io/api => ../api
+	k8s.io/apimachinery => ../apimachinery
+	k8s.io/apiserver => ../apiserver
+	k8s.io/client-go => ../client-go
+	k8s.io/cloud-provider => ../cloud-provider
+	k8s.io/component-base => ../component-base
+	k8s.io/component-helpers => ../component-helpers
+	k8s.io/controller-manager => ../controller-manager
+	k8s.io/kms => ../kms
 )

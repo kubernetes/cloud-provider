@@ -9,13 +9,13 @@ require (
 	github.com/spf13/cobra v1.4.0
 	github.com/spf13/pflag v1.0.5
 	github.com/stretchr/testify v1.8.0
-	k8s.io/api v0.0.0-20230215102946-528cd1c260c6
-	k8s.io/apimachinery v0.0.0-20230215101806-d5c5f0f1e1fe
-	k8s.io/apiserver v0.0.0-20230330224731-a99336b90ca6
-	k8s.io/client-go v0.0.0-20230215111426-b4614fd9d3d1
-	k8s.io/component-base v0.0.0-20230215115746-d5dfc1096c7e
-	k8s.io/component-helpers v0.0.0-20230215120503-0d0777c2f7c4
-	k8s.io/controller-manager v0.0.0-20230330233124-a941ec48f96f
+	k8s.io/api v0.0.0
+	k8s.io/apimachinery v0.0.0
+	k8s.io/apiserver v0.0.0
+	k8s.io/client-go v0.0.0
+	k8s.io/component-base v0.0.0
+	k8s.io/component-helpers v0.0.0
+	k8s.io/controller-manager v0.0.0
 	k8s.io/klog/v2 v2.60.1
 	k8s.io/utils v0.0.0-20220210201930-3a6ce19ff2f9
 )
@@ -97,18 +97,19 @@ require (
 	gopkg.in/yaml.v2 v2.4.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 	k8s.io/kube-openapi v0.0.0-20220328201542-3ee0da9b0b42 // indirect
-	sigs.k8s.io/apiserver-network-proxy/konnectivity-client v0.0.36 // indirect
+	sigs.k8s.io/apiserver-network-proxy/konnectivity-client v0.0.37 // indirect
 	sigs.k8s.io/json v0.0.0-20211208200746-9f7c6b3444d2 // indirect
 	sigs.k8s.io/structured-merge-diff/v4 v4.2.3 // indirect
 	sigs.k8s.io/yaml v1.2.0 // indirect
 )
 
 replace (
-	k8s.io/api => k8s.io/api v0.0.0-20230215102946-528cd1c260c6
-	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20230215101806-d5c5f0f1e1fe
-	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20230330224731-a99336b90ca6
-	k8s.io/client-go => k8s.io/client-go v0.0.0-20230215111426-b4614fd9d3d1
-	k8s.io/component-base => k8s.io/component-base v0.0.0-20230215115746-d5dfc1096c7e
-	k8s.io/component-helpers => k8s.io/component-helpers v0.0.0-20230215120503-0d0777c2f7c4
-	k8s.io/controller-manager => k8s.io/controller-manager v0.0.0-20230330233124-a941ec48f96f
+	k8s.io/api => ../api
+	k8s.io/apimachinery => ../apimachinery
+	k8s.io/apiserver => ../apiserver
+	k8s.io/client-go => ../client-go
+	k8s.io/cloud-provider => ../cloud-provider
+	k8s.io/component-base => ../component-base
+	k8s.io/component-helpers => ../component-helpers
+	k8s.io/controller-manager => ../controller-manager
 )

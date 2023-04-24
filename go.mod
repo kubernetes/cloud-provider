@@ -9,13 +9,13 @@ require (
 	github.com/spf13/cobra v1.6.0
 	github.com/spf13/pflag v1.0.5
 	github.com/stretchr/testify v1.8.2
-	k8s.io/api v0.0.0-20230424214209-9dec43fa7a26
+	k8s.io/api v0.0.0-20230424214213-e93fc0e43e75
 	k8s.io/apimachinery v0.0.0-20230424213653-150a158d04ab
-	k8s.io/apiserver v0.0.0-20230424223056-098b4196c25a
-	k8s.io/client-go v0.0.0-20230424215815-e846cbee0dd6
-	k8s.io/component-base v0.0.0-20230424222117-cb3e5be831b8
-	k8s.io/component-helpers v0.0.0-20230424222346-69d74371a952
-	k8s.io/controller-manager v0.0.0-20230424232823-05ddf57dedaf
+	k8s.io/apiserver v0.0.0-20230424223058-c4a4793144c0
+	k8s.io/client-go v0.0.0-20230424215824-d2b87849d5e7
+	k8s.io/component-base v0.0.0-20230424222119-16ca987d98cf
+	k8s.io/component-helpers v0.0.0-20230424222347-3a2f2e020e21
+	k8s.io/controller-manager v0.0.0-20230424232825-8b2543ba4881
 	k8s.io/klog/v2 v2.90.1
 	k8s.io/utils v0.0.0-20230209194617-a36077c30491
 )
@@ -47,7 +47,7 @@ require (
 	github.com/golang/protobuf v1.5.3 // indirect
 	github.com/google/cel-go v0.12.6 // indirect
 	github.com/google/gnostic v0.5.7-v3refs // indirect
-	github.com/google/gofuzz v1.1.0 // indirect
+	github.com/google/gofuzz v1.2.0 // indirect
 	github.com/google/uuid v1.3.0 // indirect
 	github.com/grpc-ecosystem/go-grpc-prometheus v1.2.0 // indirect
 	github.com/grpc-ecosystem/grpc-gateway/v2 v2.7.0 // indirect
@@ -110,12 +110,12 @@ require (
 )
 
 replace (
-	k8s.io/api => k8s.io/api v0.0.0-20230424214209-9dec43fa7a26
-	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20230424213653-150a158d04ab
-	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20230424223056-098b4196c25a
-	k8s.io/client-go => k8s.io/client-go v0.0.0-20230424215815-e846cbee0dd6
-	k8s.io/component-base => k8s.io/component-base v0.0.0-20230424222117-cb3e5be831b8
-	k8s.io/component-helpers => k8s.io/component-helpers v0.0.0-20230424222346-69d74371a952
-	k8s.io/controller-manager => k8s.io/controller-manager v0.0.0-20230424232823-05ddf57dedaf
+	k8s.io/api => k8s.io/api v0.0.0-20230424214213-e93fc0e43e75
+	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20230424213653-0db4b4996746
+	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20230424223058-c4a4793144c0
+	k8s.io/client-go => k8s.io/client-go v0.0.0-20230424215824-d2b87849d5e7
+	k8s.io/component-base => k8s.io/component-base v0.0.0-20230424222119-16ca987d98cf
+	k8s.io/component-helpers => k8s.io/component-helpers v0.0.0-20230424222347-3a2f2e020e21
+	k8s.io/controller-manager => k8s.io/controller-manager v0.0.0-20230424232825-8b2543ba4881
 	k8s.io/kms => k8s.io/kms v0.0.0-20230424222535-bed3fdf2be1f
 )

@@ -11,11 +11,11 @@ require (
 	github.com/stretchr/testify v1.8.2
 	k8s.io/api v0.0.0-20230425174508-34a8caec8792
 	k8s.io/apimachinery v0.0.0-20230425174017-478f0974b2e7
-	k8s.io/apiserver v0.0.0-20230427220756-7dd278770258
+	k8s.io/apiserver v0.0.0-20230428220919-d82c5648623a
 	k8s.io/client-go v0.0.0-20230427134925-f775857c5dca
 	k8s.io/component-base v0.0.0-20230425180508-25833dc857cd
 	k8s.io/component-helpers v0.0.0-20230425181106-6f40a0f5eeff
-	k8s.io/controller-manager v0.0.0-20230425192525-2738f1280b14
+	k8s.io/controller-manager v0.0.0-20230428224707-a9802060ee85
 	k8s.io/klog/v2 v2.90.1
 	k8s.io/utils v0.0.0-20230209194617-a36077c30491
 )
@@ -98,7 +98,7 @@ require (
 	google.golang.org/grpc v1.51.0 // indirect
 	google.golang.org/protobuf v1.30.0 // indirect
 	gopkg.in/inf.v0 v0.9.1 // indirect
-	gopkg.in/natefinch/lumberjack.v2 v2.0.0 // indirect
+	gopkg.in/natefinch/lumberjack.v2 v2.2.1 // indirect
 	gopkg.in/yaml.v2 v2.4.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 	k8s.io/kms v0.0.0-20230425181524-5ea13ac087e1 // indirect
@@ -112,10 +112,10 @@ require (
 replace (
 	k8s.io/api => k8s.io/api v0.0.0-20230425174508-34a8caec8792
 	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20230425174017-478f0974b2e7
-	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20230427220756-7dd278770258
+	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20230428220919-d82c5648623a
 	k8s.io/client-go => k8s.io/client-go v0.0.0-20230427134925-f775857c5dca
 	k8s.io/component-base => k8s.io/component-base v0.0.0-20230425180508-25833dc857cd
 	k8s.io/component-helpers => k8s.io/component-helpers v0.0.0-20230425181106-6f40a0f5eeff
-	k8s.io/controller-manager => k8s.io/controller-manager v0.0.0-20230425192525-2738f1280b14
+	k8s.io/controller-manager => k8s.io/controller-manager v0.0.0-20230428224707-a9802060ee85
 	k8s.io/kms => k8s.io/kms v0.0.0-20230425181524-5ea13ac087e1
 )

@@ -9,13 +9,13 @@ require (
 	github.com/spf13/cobra v1.4.0
 	github.com/spf13/pflag v1.0.5
 	github.com/stretchr/testify v1.8.0
-	k8s.io/api v0.0.0-20230215103432-f3470a715e29
-	k8s.io/apimachinery v0.0.0-20230215101942-8df78a92da82
-	k8s.io/apiserver v0.0.0-20230330225100-b2a8d429591e
-	k8s.io/client-go v0.0.0-20230215112115-d51156025a6a
-	k8s.io/component-base v0.0.0-20230215115956-1cc6a8b85f7b
-	k8s.io/component-helpers v0.0.0-20230215120545-fa07334552e1
-	k8s.io/controller-manager v0.0.0-20230330233204-9b23cdb69b77
+	k8s.io/api v0.0.0
+	k8s.io/apimachinery v0.0.0
+	k8s.io/apiserver v0.0.0
+	k8s.io/client-go v0.0.0
+	k8s.io/component-base v0.0.0
+	k8s.io/component-helpers v0.0.0
+	k8s.io/controller-manager v0.0.0
 	k8s.io/klog/v2 v2.70.1
 	k8s.io/utils v0.0.0-20220728103510-ee6ede2d64ed
 )
@@ -81,12 +81,12 @@ require (
 	go.uber.org/multierr v1.6.0 // indirect
 	go.uber.org/zap v1.19.0 // indirect
 	golang.org/x/crypto v0.0.0-20220315160706-3147a52a75dd // indirect
-	golang.org/x/net v0.7.0 // indirect
+	golang.org/x/net v0.8.0 // indirect
 	golang.org/x/oauth2 v0.0.0-20211104180415-d3ed0bb246c8 // indirect
-	golang.org/x/sync v0.0.0-20220722155255-886fb9371eb4 // indirect
-	golang.org/x/sys v0.5.0 // indirect
-	golang.org/x/term v0.5.0 // indirect
-	golang.org/x/text v0.7.0 // indirect
+	golang.org/x/sync v0.1.0 // indirect
+	golang.org/x/sys v0.6.0 // indirect
+	golang.org/x/term v0.6.0 // indirect
+	golang.org/x/text v0.8.0 // indirect
 	golang.org/x/time v0.0.0-20220210224613-90d013bbcef8 // indirect
 	google.golang.org/appengine v1.6.7 // indirect
 	google.golang.org/genproto v0.0.0-20220502173005-c8bf987b8c21 // indirect
@@ -104,11 +104,12 @@ require (
 )
 
 replace (
-	k8s.io/api => k8s.io/api v0.0.0-20230215103432-f3470a715e29
-	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20230215101942-8df78a92da82
-	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20230330225100-b2a8d429591e
-	k8s.io/client-go => k8s.io/client-go v0.0.0-20230215112115-d51156025a6a
-	k8s.io/component-base => k8s.io/component-base v0.0.0-20230215115956-1cc6a8b85f7b
-	k8s.io/component-helpers => k8s.io/component-helpers v0.0.0-20230215120545-fa07334552e1
-	k8s.io/controller-manager => k8s.io/controller-manager v0.0.0-20230330233204-9b23cdb69b77
+	k8s.io/api => ../api
+	k8s.io/apimachinery => ../apimachinery
+	k8s.io/apiserver => ../apiserver
+	k8s.io/client-go => ../client-go
+	k8s.io/cloud-provider => ../cloud-provider
+	k8s.io/component-base => ../component-base
+	k8s.io/component-helpers => ../component-helpers
+	k8s.io/controller-manager => ../controller-manager
 )

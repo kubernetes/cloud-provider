@@ -9,13 +9,13 @@ require (
 	github.com/spf13/cobra v1.7.0
 	github.com/spf13/pflag v1.0.5
 	github.com/stretchr/testify v1.8.2
-	k8s.io/api v0.0.0
-	k8s.io/apimachinery v0.0.0
-	k8s.io/apiserver v0.0.0
-	k8s.io/client-go v0.0.0
-	k8s.io/component-base v0.0.0
-	k8s.io/component-helpers v0.0.0
-	k8s.io/controller-manager v0.0.0
+	k8s.io/api v0.0.0-20230515170018-7c333a3dc11f
+	k8s.io/apimachinery v0.0.0-20230515165651-676b368d6d0d
+	k8s.io/apiserver v0.0.0-20230515171907-d81bcb05fe70
+	k8s.io/client-go v0.0.0-20230515170425-79d967dc5240
+	k8s.io/component-base v0.0.0-20230515171225-a6ee97d851d0
+	k8s.io/component-helpers v0.0.0-20230515171335-c070cc577fc4
+	k8s.io/controller-manager v0.0.0-20230515175918-1c2e4890cac2
 	k8s.io/klog/v2 v2.100.1
 	k8s.io/utils v0.0.0-20230406110748-d93618cff8a2
 )
@@ -101,7 +101,7 @@ require (
 	gopkg.in/natefinch/lumberjack.v2 v2.2.1 // indirect
 	gopkg.in/yaml.v2 v2.4.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
-	k8s.io/kms v0.0.0 // indirect
+	k8s.io/kms v0.0.0-20230515171440-26b86bf5b237 // indirect
 	k8s.io/kube-openapi v0.0.0-20230501164219-8b0f38b5fd1f // indirect
 	sigs.k8s.io/apiserver-network-proxy/konnectivity-client v0.1.2 // indirect
 	sigs.k8s.io/json v0.0.0-20221116044647-bc3834ca7abd // indirect
@@ -110,13 +110,12 @@ require (
 )
 
 replace (
-	k8s.io/api => ../api
-	k8s.io/apimachinery => ../apimachinery
-	k8s.io/apiserver => ../apiserver
-	k8s.io/client-go => ../client-go
-	k8s.io/cloud-provider => ../cloud-provider
-	k8s.io/component-base => ../component-base
-	k8s.io/component-helpers => ../component-helpers
-	k8s.io/controller-manager => ../controller-manager
-	k8s.io/kms => ../kms
+	k8s.io/api => k8s.io/api v0.0.0-20230515170018-7c333a3dc11f
+	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20230515165651-676b368d6d0d
+	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20230515171907-d81bcb05fe70
+	k8s.io/client-go => k8s.io/client-go v0.0.0-20230515170425-79d967dc5240
+	k8s.io/component-base => k8s.io/component-base v0.0.0-20230515171225-a6ee97d851d0
+	k8s.io/component-helpers => k8s.io/component-helpers v0.0.0-20230515171335-c070cc577fc4
+	k8s.io/controller-manager => k8s.io/controller-manager v0.0.0-20230515175918-1c2e4890cac2
+	k8s.io/kms => k8s.io/kms v0.0.0-20230515171440-26b86bf5b237
 )

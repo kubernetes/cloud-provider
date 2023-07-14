@@ -9,13 +9,13 @@ require (
 	github.com/spf13/cobra v1.7.0
 	github.com/spf13/pflag v1.0.5
 	github.com/stretchr/testify v1.8.2
-	k8s.io/api v0.0.0-20230714211711-ad80a67756b3
-	k8s.io/apimachinery v0.0.0-20230714211010-7924d2c22746
-	k8s.io/apiserver v0.0.0-20230714214424-e725ece543f7
-	k8s.io/client-go v0.0.0-20230714212436-f19b40cda940
-	k8s.io/component-base v0.0.0-20230714213649-faf645bcb8bf
-	k8s.io/component-helpers v0.0.0-20230714213821-d69a24027292
-	k8s.io/controller-manager v0.0.0-20230714220728-d0fc681cc475
+	k8s.io/api v0.0.0
+	k8s.io/apimachinery v0.0.0
+	k8s.io/apiserver v0.0.0
+	k8s.io/client-go v0.0.0
+	k8s.io/component-base v0.0.0
+	k8s.io/component-helpers v0.0.0
+	k8s.io/controller-manager v0.0.0
 	k8s.io/klog/v2 v2.100.1
 	k8s.io/utils v0.0.0-20230406110748-d93618cff8a2
 )
@@ -84,14 +84,14 @@ require (
 	go.uber.org/atomic v1.10.0 // indirect
 	go.uber.org/multierr v1.11.0 // indirect
 	go.uber.org/zap v1.19.0 // indirect
-	golang.org/x/crypto v0.11.0 // indirect
+	golang.org/x/crypto v0.6.0 // indirect
 	golang.org/x/exp v0.0.0-20220722155223-a9213eeb770e // indirect
-	golang.org/x/net v0.12.0 // indirect
+	golang.org/x/net v0.9.0 // indirect
 	golang.org/x/oauth2 v0.6.0 // indirect
 	golang.org/x/sync v0.2.0 // indirect
-	golang.org/x/sys v0.10.0 // indirect
-	golang.org/x/term v0.10.0 // indirect
-	golang.org/x/text v0.11.0 // indirect
+	golang.org/x/sys v0.8.0 // indirect
+	golang.org/x/term v0.7.0 // indirect
+	golang.org/x/text v0.9.0 // indirect
 	golang.org/x/time v0.3.0 // indirect
 	google.golang.org/appengine v1.6.7 // indirect
 	google.golang.org/genproto v0.0.0-20230526161137-0005af68ea54 // indirect
@@ -103,7 +103,7 @@ require (
 	gopkg.in/natefinch/lumberjack.v2 v2.2.1 // indirect
 	gopkg.in/yaml.v2 v2.4.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
-	k8s.io/kms v0.0.0-20230714213935-c711bc7a66b5 // indirect
+	k8s.io/kms v0.0.0 // indirect
 	k8s.io/kube-openapi v0.0.0-20230601164746-7562a1006961 // indirect
 	sigs.k8s.io/apiserver-network-proxy/konnectivity-client v0.1.2 // indirect
 	sigs.k8s.io/json v0.0.0-20221116044647-bc3834ca7abd // indirect
@@ -112,12 +112,13 @@ require (
 )
 
 replace (
-	k8s.io/api => k8s.io/api v0.0.0-20230714211711-ad80a67756b3
-	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20230714211010-7924d2c22746
-	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20230714214424-e725ece543f7
-	k8s.io/client-go => k8s.io/client-go v0.0.0-20230714212436-f19b40cda940
-	k8s.io/component-base => k8s.io/component-base v0.0.0-20230714213649-faf645bcb8bf
-	k8s.io/component-helpers => k8s.io/component-helpers v0.0.0-20230714213821-d69a24027292
-	k8s.io/controller-manager => k8s.io/controller-manager v0.0.0-20230714220728-d0fc681cc475
-	k8s.io/kms => k8s.io/kms v0.0.0-20230714213935-c711bc7a66b5
+	k8s.io/api => ../api
+	k8s.io/apimachinery => ../apimachinery
+	k8s.io/apiserver => ../apiserver
+	k8s.io/client-go => ../client-go
+	k8s.io/cloud-provider => ../cloud-provider
+	k8s.io/component-base => ../component-base
+	k8s.io/component-helpers => ../component-helpers
+	k8s.io/controller-manager => ../controller-manager
+	k8s.io/kms => ../kms
 )

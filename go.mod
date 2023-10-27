@@ -11,7 +11,7 @@ require (
 	github.com/stretchr/testify v1.8.4
 	k8s.io/api v0.0.0-20231026091235-25009ae79765
 	k8s.io/apimachinery v0.0.0-20231026091025-0785eb2fbd30
-	k8s.io/apiserver v0.0.0-20231026092725-b62f732b857a
+	k8s.io/apiserver v0.0.0-20231027012354-4f7fff86613d
 	k8s.io/client-go v0.0.0-20231026091529-4028f5ba6e18
 	k8s.io/component-base v0.0.0-20231026092130-42e32587411a
 	k8s.io/component-helpers v0.0.0-20231026092244-9d021fe8f7bd
@@ -102,7 +102,7 @@ require (
 	gopkg.in/natefinch/lumberjack.v2 v2.2.1 // indirect
 	gopkg.in/yaml.v2 v2.4.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
-	k8s.io/kms v0.0.0-20231026092351-09e5bfe49485 // indirect
+	k8s.io/kms v0.0.0-20231027012007-1f5e234165d6 // indirect
 	k8s.io/kube-openapi v0.0.0-20231010175941-2dd684a91f00 // indirect
 	sigs.k8s.io/apiserver-network-proxy/konnectivity-client v0.28.0 // indirect
 	sigs.k8s.io/json v0.0.0-20221116044647-bc3834ca7abd // indirect
@@ -113,10 +113,10 @@ require (
 replace (
 	k8s.io/api => k8s.io/api v0.0.0-20231026091235-25009ae79765
 	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20231026091025-0785eb2fbd30
-	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20231026092725-b62f732b857a
+	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20231027012354-4f7fff86613d
 	k8s.io/client-go => k8s.io/client-go v0.0.0-20231026091529-4028f5ba6e18
 	k8s.io/component-base => k8s.io/component-base v0.0.0-20231026092130-42e32587411a
 	k8s.io/component-helpers => k8s.io/component-helpers v0.0.0-20231026092244-9d021fe8f7bd
 	k8s.io/controller-manager => k8s.io/controller-manager v0.0.0-20231026094654-47b84917e017
-	k8s.io/kms => k8s.io/kms v0.0.0-20231026092351-09e5bfe49485
+	k8s.io/kms => k8s.io/kms v0.0.0-20231027012007-1f5e234165d6
 )

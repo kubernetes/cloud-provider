@@ -10,13 +10,13 @@ require (
 	github.com/spf13/cobra v1.6.0
 	github.com/spf13/pflag v1.0.5
 	github.com/stretchr/testify v1.8.1
-	k8s.io/api v0.0.0-20231012112453-6198494607ce
-	k8s.io/apimachinery v0.0.0-20231013002001-194b6f8ddf62
-	k8s.io/apiserver v0.0.0-20231013035634-f41beb3c1c70
-	k8s.io/client-go v0.0.0-20231012114918-87f3eb239d80
-	k8s.io/component-base v0.0.0-20231012120714-279de4a4d9c9
-	k8s.io/component-helpers v0.0.0-20231012121144-693e26a0f3ab
-	k8s.io/controller-manager v0.0.0-20231012135109-1fab64da59e1
+	k8s.io/api v0.0.0-20231101131934-03c3aa1e3102
+	k8s.io/apimachinery v0.0.0-20231101131425-467db0e39959
+	k8s.io/apiserver v0.0.0-20231101140015-50d9b065636a
+	k8s.io/client-go v0.0.0-20231101133235-5d61830cbc25
+	k8s.io/component-base v0.0.0-20231101134746-cfe1ad80e524
+	k8s.io/component-helpers v0.0.0-20231101135040-7397ec84be5f
+	k8s.io/controller-manager v0.0.0-20231101144927-c94560f2c012
 	k8s.io/klog/v2 v2.90.1
 	k8s.io/utils v0.0.0-20230209194617-a36077c30491
 )
@@ -29,7 +29,7 @@ require (
 	github.com/beorn7/perks v1.0.1 // indirect
 	github.com/blang/semver/v4 v4.0.0 // indirect
 	github.com/cenkalti/backoff/v4 v4.1.3 // indirect
-	github.com/cespare/xxhash/v2 v2.1.2 // indirect
+	github.com/cespare/xxhash/v2 v2.2.0 // indirect
 	github.com/coreos/go-semver v0.3.0 // indirect
 	github.com/coreos/go-systemd/v22 v22.4.0 // indirect
 	github.com/emicklei/go-restful/v3 v3.9.0 // indirect
@@ -87,21 +87,23 @@ require (
 	go.uber.org/zap v1.19.0 // indirect
 	golang.org/x/crypto v0.14.0 // indirect
 	golang.org/x/net v0.17.0 // indirect
-	golang.org/x/oauth2 v0.0.0-20220223155221-ee480838109b // indirect
-	golang.org/x/sync v0.1.0 // indirect
+	golang.org/x/oauth2 v0.7.0 // indirect
+	golang.org/x/sync v0.3.0 // indirect
 	golang.org/x/sys v0.13.0 // indirect
 	golang.org/x/term v0.13.0 // indirect
 	golang.org/x/text v0.13.0 // indirect
-	golang.org/x/time v0.0.0-20220210224613-90d013bbcef8 // indirect
+	golang.org/x/time v0.3.0 // indirect
 	google.golang.org/appengine v1.6.7 // indirect
-	google.golang.org/genproto v0.0.0-20220502173005-c8bf987b8c21 // indirect
-	google.golang.org/grpc v1.51.0 // indirect
-	google.golang.org/protobuf v1.28.1 // indirect
+	google.golang.org/genproto v0.0.0-20230525234025-438c736192d0 // indirect
+	google.golang.org/genproto/googleapis/api v0.0.0-20230525234020-1aefcd67740a // indirect
+	google.golang.org/genproto/googleapis/rpc v0.0.0-20230525234030-28d5490b6b19 // indirect
+	google.golang.org/grpc v1.56.3 // indirect
+	google.golang.org/protobuf v1.31.0 // indirect
 	gopkg.in/inf.v0 v0.9.1 // indirect
 	gopkg.in/natefinch/lumberjack.v2 v2.0.0 // indirect
 	gopkg.in/yaml.v2 v2.4.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
-	k8s.io/kms v0.0.0-20231012121451-264f511ceebd // indirect
+	k8s.io/kms v0.0.0-20231101135256-b91162d4057f // indirect
 	k8s.io/kube-openapi v0.0.0-20230501164219-8b0f38b5fd1f // indirect
 	sigs.k8s.io/apiserver-network-proxy/konnectivity-client v0.1.2 // indirect
 	sigs.k8s.io/json v0.0.0-20221116044647-bc3834ca7abd // indirect
@@ -110,12 +112,12 @@ require (
 )
 
 replace (
-	k8s.io/api => k8s.io/api v0.0.0-20231012112453-6198494607ce
-	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20231013002001-194b6f8ddf62
-	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20231013035634-f41beb3c1c70
-	k8s.io/client-go => k8s.io/client-go v0.0.0-20231012114918-87f3eb239d80
-	k8s.io/component-base => k8s.io/component-base v0.0.0-20231012120714-279de4a4d9c9
-	k8s.io/component-helpers => k8s.io/component-helpers v0.0.0-20231012121144-693e26a0f3ab
-	k8s.io/controller-manager => k8s.io/controller-manager v0.0.0-20231012135109-1fab64da59e1
-	k8s.io/kms => k8s.io/kms v0.0.0-20231012121451-264f511ceebd
+	k8s.io/api => k8s.io/api v0.0.0-20231101131934-03c3aa1e3102
+	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20231101131425-467db0e39959
+	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20231101140015-50d9b065636a
+	k8s.io/client-go => k8s.io/client-go v0.0.0-20231101133235-5d61830cbc25
+	k8s.io/component-base => k8s.io/component-base v0.0.0-20231101134746-cfe1ad80e524
+	k8s.io/component-helpers => k8s.io/component-helpers v0.0.0-20231101135040-7397ec84be5f
+	k8s.io/controller-manager => k8s.io/controller-manager v0.0.0-20231101144927-c94560f2c012
+	k8s.io/kms => k8s.io/kms v0.0.0-20231101135256-b91162d4057f
 )

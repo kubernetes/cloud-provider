@@ -9,10 +9,10 @@ require (
 	github.com/spf13/cobra v1.7.0
 	github.com/spf13/pflag v1.0.5
 	github.com/stretchr/testify v1.8.4
-	k8s.io/api v0.0.0-20240118211853-d5724e467262
+	k8s.io/api v0.0.0-20240124211857-8b0ccc2e7c70
 	k8s.io/apimachinery v0.0.0-20240118211638-f14778da5523
 	k8s.io/apiserver v0.0.0-20240123212953-888034e53f91
-	k8s.io/client-go v0.0.0-20240122172058-657d7be98b25
+	k8s.io/client-go v0.0.0-20240124011219-8092c71d3605
 	k8s.io/component-base v0.0.0-20240123212339-5f9f8131aa48
 	k8s.io/component-helpers v0.0.0-20240118212950-9a5801419916
 	k8s.io/controller-manager v0.0.0-20240118215554-668272ee0e2c
@@ -110,10 +110,10 @@ require (
 )
 
 replace (
-	k8s.io/api => k8s.io/api v0.0.0-20240118211853-d5724e467262
+	k8s.io/api => k8s.io/api v0.0.0-20240124211857-8b0ccc2e7c70
 	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20240118211638-f14778da5523
 	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20240123212953-888034e53f91
-	k8s.io/client-go => k8s.io/client-go v0.0.0-20240122172058-657d7be98b25
+	k8s.io/client-go => k8s.io/client-go v0.0.0-20240124011219-8092c71d3605
 	k8s.io/component-base => k8s.io/component-base v0.0.0-20240123212339-5f9f8131aa48
 	k8s.io/component-helpers => k8s.io/component-helpers v0.0.0-20240118212950-9a5801419916
 	k8s.io/controller-manager => k8s.io/controller-manager v0.0.0-20240118215554-668272ee0e2c

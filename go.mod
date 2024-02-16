@@ -9,13 +9,13 @@ require (
 	github.com/spf13/cobra v1.7.0
 	github.com/spf13/pflag v1.0.5
 	github.com/stretchr/testify v1.8.4
-	k8s.io/api v0.0.0-20240215012102-e929f86ae1d3
-	k8s.io/apimachinery v0.0.0-20240215011828-665c1a23c2ec
-	k8s.io/apiserver v0.0.0-20240215013912-f980dbe8f02b
-	k8s.io/client-go v0.0.0-20240215012442-306b201a2d29
-	k8s.io/component-base v0.0.0-20240215013150-2f5bf1a7c2f0
-	k8s.io/component-helpers v0.0.0-20240215013307-3ab112d45fdf
-	k8s.io/controller-manager v0.0.0-20240215020234-58bc8cf31f61
+	k8s.io/api v0.0.0
+	k8s.io/apimachinery v0.0.0
+	k8s.io/apiserver v0.0.0
+	k8s.io/client-go v0.0.0
+	k8s.io/component-base v0.0.0
+	k8s.io/component-helpers v0.0.0
+	k8s.io/controller-manager v0.0.0
 	k8s.io/klog/v2 v2.120.1
 	k8s.io/utils v0.0.0-20230726121419-3b25d923346b
 )
@@ -82,13 +82,13 @@ require (
 	go.opentelemetry.io/proto/otlp v1.0.0 // indirect
 	go.uber.org/multierr v1.11.0 // indirect
 	go.uber.org/zap v1.26.0 // indirect
-	golang.org/x/crypto v0.16.0 // indirect
+	golang.org/x/crypto v0.19.0 // indirect
 	golang.org/x/exp v0.0.0-20220722155223-a9213eeb770e // indirect
 	golang.org/x/net v0.19.0 // indirect
 	golang.org/x/oauth2 v0.10.0 // indirect
 	golang.org/x/sync v0.5.0 // indirect
-	golang.org/x/sys v0.15.0 // indirect
-	golang.org/x/term v0.15.0 // indirect
+	golang.org/x/sys v0.17.0 // indirect
+	golang.org/x/term v0.17.0 // indirect
 	golang.org/x/text v0.14.0 // indirect
 	golang.org/x/time v0.3.0 // indirect
 	google.golang.org/appengine v1.6.7 // indirect
@@ -101,7 +101,7 @@ require (
 	gopkg.in/natefinch/lumberjack.v2 v2.2.1 // indirect
 	gopkg.in/yaml.v2 v2.4.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
-	k8s.io/kms v0.0.0-20231220174908-0e979309a09f // indirect
+	k8s.io/kms v0.0.0 // indirect
 	k8s.io/kube-openapi v0.0.0-20231113174909-778a5567bc1e // indirect
 	sigs.k8s.io/apiserver-network-proxy/konnectivity-client v0.29.0 // indirect
 	sigs.k8s.io/json v0.0.0-20221116044647-bc3834ca7abd // indirect
@@ -110,12 +110,13 @@ require (
 )
 
 replace (
-	k8s.io/api => k8s.io/api v0.0.0-20240215012102-e929f86ae1d3
-	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20240215011828-665c1a23c2ec
-	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20240215013912-f980dbe8f02b
-	k8s.io/client-go => k8s.io/client-go v0.0.0-20240215012442-306b201a2d29
-	k8s.io/component-base => k8s.io/component-base v0.0.0-20240215013150-2f5bf1a7c2f0
-	k8s.io/component-helpers => k8s.io/component-helpers v0.0.0-20240215013307-3ab112d45fdf
-	k8s.io/controller-manager => k8s.io/controller-manager v0.0.0-20240215020234-58bc8cf31f61
-	k8s.io/kms => k8s.io/kms v0.0.0-20231220174908-0e979309a09f
+	k8s.io/api => ../api
+	k8s.io/apimachinery => ../apimachinery
+	k8s.io/apiserver => ../apiserver
+	k8s.io/client-go => ../client-go
+	k8s.io/cloud-provider => ../cloud-provider
+	k8s.io/component-base => ../component-base
+	k8s.io/component-helpers => ../component-helpers
+	k8s.io/controller-manager => ../controller-manager
+	k8s.io/kms => ../kms
 )

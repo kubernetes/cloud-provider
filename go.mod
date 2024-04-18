@@ -9,11 +9,11 @@ require (
 	github.com/spf13/cobra v1.7.0
 	github.com/spf13/pflag v1.0.5
 	github.com/stretchr/testify v1.8.4
-	k8s.io/api v0.0.0-20240418013359-a819b1d9bd16
-	k8s.io/apimachinery v0.0.0-20240418093209-8c36da9e60f7
-	k8s.io/apiserver v0.0.0-20240418094959-36301fef8ece
-	k8s.io/client-go v0.0.0-20240418093649-79491afc36e9
-	k8s.io/component-base v0.0.0-20240404040301-d0106a887d7d
+	k8s.io/api v0.0.0-20240418133400-98d0c7a1b77e
+	k8s.io/apimachinery v0.0.0-20240418133208-ea31e5150286
+	k8s.io/apiserver v0.0.0-20240418134839-69d05fc758f5
+	k8s.io/client-go v0.0.0-20240418173639-b1c1c0345d1d
+	k8s.io/component-base v0.0.0-20240418094434-57ba0489bfa6
 	k8s.io/component-helpers v0.0.0-20240404040358-dc3c4990ec39
 	k8s.io/controller-manager v0.0.0-20240404042301-5824f7adac5e
 	k8s.io/klog/v2 v2.120.1
@@ -108,3 +108,5 @@ require (
 	sigs.k8s.io/structured-merge-diff/v4 v4.4.1 // indirect
 	sigs.k8s.io/yaml v1.3.0 // indirect
 )
+
+replace k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20240418133208-0ee3e6150890

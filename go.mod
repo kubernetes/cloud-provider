@@ -10,10 +10,10 @@ require (
 	github.com/spf13/pflag v1.0.5
 	github.com/stretchr/testify v1.9.0
 	k8s.io/api v0.0.0-20240626062052-149781fc54f5
-	k8s.io/apimachinery v0.0.0-20240626061444-123bf3a82130
-	k8s.io/apiserver v0.0.0-20240626065944-4575e4c448e1
-	k8s.io/client-go v0.0.0-20240626062854-6090471cca1b
-	k8s.io/component-base v0.0.0-20240626064639-1f2e30104e8a
+	k8s.io/apimachinery v0.0.0-20240626061446-c225984b7bed
+	k8s.io/apiserver v0.0.0-20240626065946-348f8e3cff5e
+	k8s.io/client-go v0.0.0-20240626062855-8ffa5314741e
+	k8s.io/component-base v0.0.0-20240626064641-0eb10f703efe
 	k8s.io/component-helpers v0.0.0-20240626065029-32dd347d13f4
 	k8s.io/controller-manager v0.0.0-20240626075914-2906ebea8423
 	k8s.io/klog/v2 v2.130.1

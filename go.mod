@@ -13,7 +13,7 @@ require (
 	github.com/stretchr/testify v1.9.0
 	k8s.io/api v0.0.0-20241018042523-2be23f6c5a71
 	k8s.io/apimachinery v0.0.0-20241018042225-cfee47580787
-	k8s.io/apiserver v0.0.0-20241018044901-1ea7befac323
+	k8s.io/apiserver v0.0.0-20241018204147-d0f54d59938a
 	k8s.io/client-go v0.0.0-20241018042940-23900f492969
 	k8s.io/component-base v0.0.0-20241018044032-28853230c294
 	k8s.io/component-helpers v0.0.0-20241018044207-e8293c2260fa

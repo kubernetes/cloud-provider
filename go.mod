@@ -13,13 +13,13 @@ require (
 	github.com/spf13/cobra v1.8.1
 	github.com/spf13/pflag v1.0.5
 	github.com/stretchr/testify v1.9.0
-	k8s.io/api v0.0.0-20241220201724-9603cdf39dd3
-	k8s.io/apimachinery v0.0.0-20241218214440-307a3ddd3cae
-	k8s.io/apiserver v0.0.0-20250103164131-006dd593ee97
-	k8s.io/client-go v0.0.0-20250103162209-2ad95cfec907
-	k8s.io/component-base v0.0.0-20250103163323-9bd43d9e07dc
-	k8s.io/component-helpers v0.0.0-20250103163444-caafc2402a44
-	k8s.io/controller-manager v0.0.0-20250103170709-a489a84f1534
+	k8s.io/api v0.0.0-20250106201850-018f9a59fc40
+	k8s.io/apimachinery v0.0.0-20250106201545-3e8e52d6a125
+	k8s.io/apiserver v0.0.0-20250106204137-e6eb58901f83
+	k8s.io/client-go v0.0.0-20250106202309-ca1e525bb47b
+	k8s.io/component-base v0.0.0-20250106203308-7356cc73422d
+	k8s.io/component-helpers v0.0.0-20250106203431-aadf35dba6e2
+	k8s.io/controller-manager v0.0.0-20250106210748-3682d32fe871
 	k8s.io/klog/v2 v2.130.1
 	k8s.io/utils v0.0.0-20241104100929-3ea5e8cea738
 )
@@ -88,7 +88,7 @@ require (
 	go.uber.org/zap v1.27.0 // indirect
 	golang.org/x/crypto v0.31.0 // indirect
 	golang.org/x/exp v0.0.0-20240719175910-8a7402abbf56 // indirect
-	golang.org/x/net v0.30.0 // indirect
+	golang.org/x/net v0.33.0 // indirect
 	golang.org/x/oauth2 v0.23.0 // indirect
 	golang.org/x/sync v0.10.0 // indirect
 	golang.org/x/sys v0.28.0 // indirect
@@ -103,7 +103,7 @@ require (
 	gopkg.in/inf.v0 v0.9.1 // indirect
 	gopkg.in/natefinch/lumberjack.v2 v2.2.1 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
-	k8s.io/kms v0.0.0-20241213100418-8cb606989fcf // indirect
+	k8s.io/kms v0.0.0-20250106203549-2ea9aec44ce9 // indirect
 	k8s.io/kube-openapi v0.0.0-20241212222426-2c72e554b1e7 // indirect
 	sigs.k8s.io/apiserver-network-proxy/konnectivity-client v0.31.1 // indirect
 	sigs.k8s.io/json v0.0.0-20241010143419-9aa6b5e7a4b3 // indirect

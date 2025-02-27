@@ -11,9 +11,9 @@ require (
 	github.com/spf13/cobra v1.8.1
 	github.com/spf13/pflag v1.0.5
 	github.com/stretchr/testify v1.9.0
-	k8s.io/api v0.0.0-20250222234703-315eef3bab2a
-	k8s.io/apimachinery v0.0.0-20250222234438-a78353204564
-	k8s.io/apiserver v0.0.0-20250224161546-710763dd431f
+	k8s.io/api v0.0.0-20250227053124-25eddff3fd94
+	k8s.io/apimachinery v0.0.0-20250224154452-ee1e055b7c5f
+	k8s.io/apiserver v0.0.0-20250226214614-205c0f56b54b
 	k8s.io/client-go v0.0.0-20250224155511-8dd5edb393de
 	k8s.io/component-base v0.0.0-20250223000050-c6b0aebee165
 	k8s.io/component-helpers v0.0.0-20250223000208-8252fba4acc4

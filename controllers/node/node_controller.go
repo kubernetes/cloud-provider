@@ -440,6 +440,7 @@ func (cnc *CloudNodeController) syncNode(ctx context.Context, nodeName string) e
 		return nil
 	}
 
+	klog.V(2).Infof("zhanggbj instanceMeta.ProviderID before getNodeModifiersFromCloudProvider: %s", instanceMetadata.ProviderID)
 	nodeModifiers, err := cnc.getNodeModifiersFromCloudProvider(ctx, copyNode, instanceMetadata)
 	if err != nil {
 		return fmt.Errorf("failed to get node modifiers from cloud provider: %v", err)
@@ -492,9 +493,11 @@ func (cnc *CloudNodeController) getNodeModifiersFromCloudProvider(
 	node *v1.Node,
 	instanceMeta *cloudprovider.InstanceMetadata,
 ) ([]nodeModifier, error) {
+	klog.V(2).Infof("zhanggbj instanceMeta.ProviderID: %s", instanceMeta.ProviderID)
 
 	var nodeModifiers []nodeModifier
 	if node.Spec.ProviderID == "" {
+		klog.V(2).Infof("zhanggbjnode.Spec.ProviderID == empty, ready to add instanceMeta.ProviderID : %s", instanceMeta.ProviderID)
 		if instanceMeta.ProviderID != "" {
 			nodeModifiers = append(nodeModifiers, func(n *v1.Node) { n.Spec.ProviderID = instanceMeta.ProviderID })
 		}
@@ -607,23 +610,28 @@ func (cnc *CloudNodeController) getInstanceMetadata(ctx context.Context, node *v
 
 	var err error
 	if providerID == "" {
+		klog.V(2).Infof("zhanggbj enter providerID == emmpty: %s", providerID)
 		providerID, err = cloudprovider.GetInstanceProviderID(ctx, cnc.cloud, types.NodeName(node.Name))
 		if err != nil {
+			klog.V(2).Infof("zhanggbj GetInstanceProviderID err is not nil %s", providerID)
 			// This is the only case where ProviderID can be skipped
 			if errors.Is(err, cloudprovider.NotImplemented) {
 				// if the cloud provider being used does not support provider IDs,
 				// we can safely continue since we will attempt to set node
 				// addresses given the node name in getNodeAddressesByProviderIDOrName
+				klog.V(2).Infof("zhanggbj cloud provider does not set node provider ID")
 				klog.Warningf("cloud provider does not set node provider ID, using node name to discover node %s", node.Name)
 			} else {
 				// if the cloud provider being used supports provider IDs, we want
 				// to propagate the error so that we re-try in the future; if we
 				// do not, the taint will be removed, and this will not be retried
+				klog.V(2).Infof("zhanggbj GetInstanceProviderID return nil,err")
 				return nil, err
 			}
 		}
 	}
 
+	klog.V(2).Infof("zhanggbj ProviderID before getNodeAddressesByProviderIDOrName: %s", providerID)
 	nodeAddresses, err := getNodeAddressesByProviderIDOrName(ctx, instances, providerID, node.Name)
 	if err != nil {
 		return nil, err
@@ -657,6 +665,7 @@ func (cnc *CloudNodeController) getInstanceMetadata(ctx context.Context, node *v
 		instanceMetadata.Region = zone.Region
 	}
 
+	klog.V(2).Infof("zhanggbj instanceMeta.ProviderID at instanceMetadata: %s", instanceMetadata.ProviderID)
 	return instanceMetadata, nil
 }
 
@@ -672,6 +681,7 @@ func (cnc *CloudNodeController) getInstanceNodeAddresses(ctx context.Context, no
 	if !ok {
 		return nil, fmt.Errorf("failed to get instances from cloud provider")
 	}
+	klog.V(2).Infof("zhanggbj ProviderID before getNodeAddressesByProviderIDOrName by node.Spec.ProviderID: %s", node.Spec.ProviderID)
 	nodeAddresses, err := getNodeAddressesByProviderIDOrName(ctx, instances, node.Spec.ProviderID, node.Name)
 	if err != nil {
 		return nil, err

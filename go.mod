@@ -11,13 +11,13 @@ require (
 	github.com/spf13/cobra v1.8.1
 	github.com/spf13/pflag v1.0.5
 	github.com/stretchr/testify v1.10.0
-	k8s.io/api v0.0.0-20250425021431-9aab596060e1
+	k8s.io/api v0.0.0-20250425132438-7421a41940e1
 	k8s.io/apimachinery v0.0.0-20250423231524-954960919938
-	k8s.io/apiserver v0.0.0-20250425113608-201e7749f225
+	k8s.io/apiserver v0.0.0-20250425193703-a50d13fe86a6
 	k8s.io/client-go v0.0.0-20250424231738-17ad09eb27d1
 	k8s.io/component-base v0.0.0-20250424232716-364dc750ae6a
 	k8s.io/component-helpers v0.0.0-20250423233808-8b0a2e4e6cfd
-	k8s.io/controller-manager v0.0.0-20250425120030-a23f9e1ef09f
+	k8s.io/controller-manager v0.0.0-20250425200317-3dd21441ac56
 	k8s.io/klog/v2 v2.130.1
 	k8s.io/utils v0.0.0-20250321185631-1f6e0b77f77e
 )
@@ -36,7 +36,7 @@ require (
 	github.com/davecgh/go-spew v1.1.1 // indirect
 	github.com/emicklei/go-restful/v3 v3.11.0 // indirect
 	github.com/felixge/httpsnoop v1.0.4 // indirect
-	github.com/fsnotify/fsnotify v1.7.0 // indirect
+	github.com/fsnotify/fsnotify v1.9.0 // indirect
 	github.com/fxamacker/cbor/v2 v2.7.0 // indirect
 	github.com/go-logr/logr v1.4.2 // indirect
 	github.com/go-logr/stdr v1.2.2 // indirect

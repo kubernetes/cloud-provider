@@ -13,11 +13,11 @@ require (
 	github.com/stretchr/testify v1.10.0
 	k8s.io/api v0.0.0-20250702170451-bfa25161ab14
 	k8s.io/apimachinery v0.0.0-20250702170156-7548d4da2f38
-	k8s.io/apiserver v0.0.0-20250702172959-179348d53806
-	k8s.io/client-go v0.0.0-20250702170847-0746d1b7322b
-	k8s.io/component-base v0.0.0-20250702172159-a7fbca963794
-	k8s.io/component-helpers v0.0.0-20250702172321-ceb0144a4fc5
-	k8s.io/controller-manager v0.0.0-20250702175806-b243d4443ff5
+	k8s.io/apiserver v0.0.0-20250702212627-2898f40277a5
+	k8s.io/client-go v0.0.0-20250702210839-783cf83ee3e2
+	k8s.io/component-base v0.0.0-20250702211828-4643692dd643
+	k8s.io/component-helpers v0.0.0-20250702211950-3f340216f77c
+	k8s.io/controller-manager v0.0.0-20250702215255-368460a6acf9
 	k8s.io/klog/v2 v2.130.1
 	k8s.io/utils v0.0.0-20250604170112-4c0f3b243397
 )
@@ -34,7 +34,7 @@ require (
 	github.com/coreos/go-semver v0.3.1 // indirect
 	github.com/coreos/go-systemd/v22 v22.5.0 // indirect
 	github.com/davecgh/go-spew v1.1.1 // indirect
-	github.com/emicklei/go-restful/v3 v3.11.0 // indirect
+	github.com/emicklei/go-restful/v3 v3.12.2 // indirect
 	github.com/felixge/httpsnoop v1.0.4 // indirect
 	github.com/fsnotify/fsnotify v1.9.0 // indirect
 	github.com/fxamacker/cbor/v2 v2.8.0 // indirect

@@ -2,22 +2,22 @@
 
 module k8s.io/cloud-provider
 
-go 1.24.0
+go 1.25.0
 
-godebug default=go1.24
+godebug default=go1.25
 
 require (
 	github.com/google/go-cmp v0.7.0
 	github.com/spf13/cobra v1.10.0
 	github.com/spf13/pflag v1.0.9
 	github.com/stretchr/testify v1.11.1
-	k8s.io/api v0.0.0-20250911194840-ed58f06b9673
-	k8s.io/apimachinery v0.0.0-20250911194554-abb5535e33dd
-	k8s.io/apiserver v0.0.0-20250911201325-68aa546374dd
-	k8s.io/client-go v0.0.0-20250911195247-f8bdeaf0f324
-	k8s.io/component-base v0.0.0-20250911200454-bc57539132eb
-	k8s.io/component-helpers v0.0.0-20250911200634-ef6688a1204b
-	k8s.io/controller-manager v0.0.0-20250911204054-ee90cc1abf86
+	k8s.io/api v0.0.0
+	k8s.io/apimachinery v0.0.0
+	k8s.io/apiserver v0.0.0
+	k8s.io/client-go v0.0.0
+	k8s.io/component-base v0.0.0
+	k8s.io/component-helpers v0.0.0
+	k8s.io/controller-manager v0.0.0
 	k8s.io/klog/v2 v2.130.1
 	k8s.io/utils v0.0.0-20250604170112-4c0f3b243397
 )
@@ -102,11 +102,22 @@ require (
 	gopkg.in/inf.v0 v0.9.1 // indirect
 	gopkg.in/natefinch/lumberjack.v2 v2.2.1 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
-	k8s.io/kms v0.0.0-20250910161039-1e806949f907 // indirect
+	k8s.io/kms v0.0.0 // indirect
 	k8s.io/kube-openapi v0.0.0-20250910181357-589584f1c912 // indirect
 	sigs.k8s.io/apiserver-network-proxy/konnectivity-client v0.31.2 // indirect
 	sigs.k8s.io/json v0.0.0-20241014173422-cfa47c3a1cc8 // indirect
 	sigs.k8s.io/randfill v1.0.0 // indirect
 	sigs.k8s.io/structured-merge-diff/v6 v6.3.0 // indirect
 	sigs.k8s.io/yaml v1.6.0 // indirect
+)
+
+replace (
+	k8s.io/api => ../api
+	k8s.io/apimachinery => ../apimachinery
+	k8s.io/apiserver => ../apiserver
+	k8s.io/client-go => ../client-go
+	k8s.io/component-base => ../component-base
+	k8s.io/component-helpers => ../component-helpers
+	k8s.io/controller-manager => ../controller-manager
+	k8s.io/kms => ../kms
 )

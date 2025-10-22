@@ -11,13 +11,13 @@ require (
 	github.com/spf13/cobra v1.10.0
 	github.com/spf13/pflag v1.0.9
 	github.com/stretchr/testify v1.11.1
-	k8s.io/api v0.0.0-20251021232007-e04c29a37b2e
-	k8s.io/apimachinery v0.0.0-20251021201638-02b0a610061c
-	k8s.io/apiserver v0.0.0-20251022193727-1542ed341652
-	k8s.io/client-go v0.0.0-20251021232429-a5b1b112d916
-	k8s.io/component-base v0.0.0-20251013235701-797fe69345a1
-	k8s.io/component-helpers v0.0.0-20251008214234-85759c75589a
-	k8s.io/controller-manager v0.0.0-20250919041745-789c34bbb70b
+	k8s.io/api v0.0.0-20251022232024-e681e9f64143
+	k8s.io/apimachinery v0.0.0-20251022231703-e79daceaa31b
+	k8s.io/apiserver v0.0.0-20251022234702-161b03fabc5b
+	k8s.io/client-go v0.0.0-20251022232504-715199a180dc
+	k8s.io/component-base v0.0.0-20251022233647-8a780af60b48
+	k8s.io/component-helpers v0.0.0-20251022233850-f6d7ac8ebaf9
+	k8s.io/controller-manager v0.0.0-20251023001613-03776dab1843
 	k8s.io/klog/v2 v2.130.1
 	k8s.io/utils v0.0.0-20250604170112-4c0f3b243397
 )
@@ -68,9 +68,9 @@ require (
 	github.com/prometheus/procfs v0.16.1 // indirect
 	github.com/stoewer/go-strcase v1.3.0 // indirect
 	github.com/x448/float16 v0.8.4 // indirect
-	go.etcd.io/etcd/api/v3 v3.6.4 // indirect
-	go.etcd.io/etcd/client/pkg/v3 v3.6.4 // indirect
-	go.etcd.io/etcd/client/v3 v3.6.4 // indirect
+	go.etcd.io/etcd/api/v3 v3.6.5 // indirect
+	go.etcd.io/etcd/client/pkg/v3 v3.6.5 // indirect
+	go.etcd.io/etcd/client/v3 v3.6.5 // indirect
 	go.opentelemetry.io/auto/sdk v1.1.0 // indirect
 	go.opentelemetry.io/contrib/instrumentation/google.golang.org/grpc/otelgrpc v0.60.0 // indirect
 	go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp v0.61.0 // indirect

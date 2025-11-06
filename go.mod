@@ -11,13 +11,14 @@ require (
 	github.com/spf13/cobra v1.10.0
 	github.com/spf13/pflag v1.0.9
 	github.com/stretchr/testify v1.11.1
-	k8s.io/api v0.0.0-20251101152117-8b150d50efc9
-	k8s.io/apimachinery v0.0.0-20251101151749-05faff5a672c
-	k8s.io/apiserver v0.0.0-20251101154632-6eba6bf54c0d
-	k8s.io/client-go v0.0.0-20251101152550-4f9edc15a7e7
-	k8s.io/component-base v0.0.0-20251101153715-0c7fa86d2ef3
-	k8s.io/component-helpers v0.0.0-20251101153853-bbe62de9fd22
-	k8s.io/controller-manager v0.0.0-20251101161400-7b9437849703
+	golang.org/x/time v0.9.0
+	k8s.io/api v0.0.0-20251106202824-18e16b5aa26d
+	k8s.io/apimachinery v0.0.0-20251104194212-729c13d7df38
+	k8s.io/apiserver v0.0.0-20251106055718-07824e7943a4
+	k8s.io/client-go v0.0.0-20251106123256-0e6fc04326d2
+	k8s.io/component-base v0.0.0-20251105043606-09c454e1f74b
+	k8s.io/component-helpers v0.0.0-20251106124553-0e2bf40485ce
+	k8s.io/controller-manager v0.0.0-20251106210955-362c11ff4757
 	k8s.io/klog/v2 v2.130.1
 	k8s.io/utils v0.0.0-20251002143259-bc988d571ff4
 )
@@ -93,7 +94,6 @@ require (
 	golang.org/x/sys v0.37.0 // indirect
 	golang.org/x/term v0.36.0 // indirect
 	golang.org/x/text v0.29.0 // indirect
-	golang.org/x/time v0.9.0 // indirect
 	google.golang.org/genproto/googleapis/api v0.0.0-20250303144028-a0af3efb3deb // indirect
 	google.golang.org/genproto/googleapis/rpc v0.0.0-20250528174236-200df99c418a // indirect
 	google.golang.org/grpc v1.72.2 // indirect

@@ -12,13 +12,13 @@ require (
 	github.com/spf13/pflag v1.0.9
 	github.com/stretchr/testify v1.11.1
 	golang.org/x/time v0.9.0
-	k8s.io/api v0.0.0-20251218062647-56ee7b10ed3f
-	k8s.io/apimachinery v0.0.0-20251218062152-a9de6f8b12f4
-	k8s.io/apiserver v0.0.0-20251218065946-045a035da69b
-	k8s.io/client-go v0.0.0-20251218063304-ca2dee6d058e
+	k8s.io/api v0.0.0-20251218062648-50474f4a1619
+	k8s.io/apimachinery v0.0.0-20251218062153-94056eccfb12
+	k8s.io/apiserver v0.0.0-20251218144801-855be38953bd
+	k8s.io/client-go v0.0.0-20251218063306-1aef261f0ad5
 	k8s.io/component-base v0.0.0-20251204225730-8cb15f10375f
 	k8s.io/component-helpers v0.0.0-20251204230024-d853346140cf
-	k8s.io/controller-manager v0.0.0-20251218074229-555b78075476
+	k8s.io/controller-manager v0.0.0-20251218151318-1b939266cd57
 	k8s.io/klog/v2 v2.130.1
 	k8s.io/utils v0.0.0-20251002143259-bc988d571ff4
 )
@@ -33,7 +33,7 @@ require (
 	github.com/cenkalti/backoff/v4 v4.3.0 // indirect
 	github.com/cespare/xxhash/v2 v2.3.0 // indirect
 	github.com/coreos/go-semver v0.3.1 // indirect
-	github.com/coreos/go-systemd/v22 v22.5.0 // indirect
+	github.com/coreos/go-systemd/v22 v22.6.0 // indirect
 	github.com/davecgh/go-spew v1.1.1 // indirect
 	github.com/emicklei/go-restful/v3 v3.12.2 // indirect
 	github.com/felixge/httpsnoop v1.0.4 // indirect

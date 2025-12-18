@@ -14,11 +14,11 @@ require (
 	golang.org/x/time v0.9.0
 	k8s.io/api v0.0.0-20251218062648-50474f4a1619
 	k8s.io/apimachinery v0.0.0-20251218062153-94056eccfb12
-	k8s.io/apiserver v0.0.0-20251218144801-855be38953bd
+	k8s.io/apiserver v0.0.0-20251218144803-947c15821c59
 	k8s.io/client-go v0.0.0-20251218063306-1aef261f0ad5
-	k8s.io/component-base v0.0.0-20251204225730-8cb15f10375f
+	k8s.io/component-base v0.0.0-20251218143937-776ef6f15e6f
 	k8s.io/component-helpers v0.0.0-20251204230024-d853346140cf
-	k8s.io/controller-manager v0.0.0-20251218151318-1b939266cd57
+	k8s.io/controller-manager v0.0.0-20251218151319-afb1f515727d
 	k8s.io/klog/v2 v2.130.1
 	k8s.io/utils v0.0.0-20251002143259-bc988d571ff4
 )
@@ -51,7 +51,8 @@ require (
 	github.com/google/cel-go v0.26.0 // indirect
 	github.com/google/gnostic-models v0.7.0 // indirect
 	github.com/google/uuid v1.6.0 // indirect
-	github.com/grpc-ecosystem/go-grpc-prometheus v1.2.0 // indirect
+	github.com/grpc-ecosystem/go-grpc-middleware/providers/prometheus v1.0.1 // indirect
+	github.com/grpc-ecosystem/go-grpc-middleware/v2 v2.3.0 // indirect
 	github.com/grpc-ecosystem/grpc-gateway/v2 v2.26.3 // indirect
 	github.com/inconshreveable/mousetrap v1.1.0 // indirect
 	github.com/josharian/intern v1.0.0 // indirect

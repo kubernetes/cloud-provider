@@ -14,7 +14,7 @@ require (
 	golang.org/x/time v0.9.0
 	k8s.io/api v0.0.0-20251219182517-42a0dbb88620
 	k8s.io/apimachinery v0.0.0-20251219182210-41f756ddfded
-	k8s.io/apiserver v0.0.0-20251219184904-13cb3c1dff9d
+	k8s.io/apiserver v0.0.0-20251220224145-b66a73f63a23
 	k8s.io/client-go v0.0.0-20251219182940-687c6c1315a9
 	k8s.io/component-base v0.0.0-20251219184035-4ce954c841ad
 	k8s.io/component-helpers v0.0.0-20251219184207-438200f632a0

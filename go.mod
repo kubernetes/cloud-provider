@@ -14,11 +14,11 @@ require (
 	golang.org/x/time v0.14.0
 	k8s.io/api v0.0.0-20260203182827-ab936f91c790
 	k8s.io/apimachinery v0.0.0-20260128173627-f88bdbffa260
-	k8s.io/apiserver v0.0.0-20260204040346-5a9cb61f53b4
+	k8s.io/apiserver v0.0.0-20260204155856-d5698b9bf1fa
 	k8s.io/client-go v0.0.0-20260204034225-65608ffa8ed0
-	k8s.io/component-base v0.0.0-20260128015519-0f92b4617f0b
+	k8s.io/component-base v0.0.0-20260204154858-724d314f2a3e
 	k8s.io/component-helpers v0.0.0-20260128015658-baa7b3dc5627
-	k8s.io/controller-manager v0.0.0-20260130041506-a4161497374b
+	k8s.io/controller-manager v0.0.0-20260204162930-1b67be7d2d05
 	k8s.io/klog/v2 v2.130.1
 	k8s.io/utils v0.0.0-20251219084037-98d557b7f1e7
 )
@@ -66,8 +66,8 @@ require (
 	github.com/pmezard/go-difflib v1.0.1-0.20181226105442-5d4384ee4fb2 // indirect
 	github.com/prometheus/client_golang v1.23.2 // indirect
 	github.com/prometheus/client_model v0.6.2 // indirect
-	github.com/prometheus/common v0.66.1 // indirect
-	github.com/prometheus/procfs v0.16.1 // indirect
+	github.com/prometheus/common v0.67.5 // indirect
+	github.com/prometheus/procfs v0.19.2 // indirect
 	github.com/stoewer/go-strcase v1.3.0 // indirect
 	github.com/x448/float16 v0.8.4 // indirect
 	go.etcd.io/etcd/api/v3 v3.6.7 // indirect

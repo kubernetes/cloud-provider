@@ -12,15 +12,15 @@ require (
 	github.com/spf13/pflag v1.0.9
 	github.com/stretchr/testify v1.11.1
 	golang.org/x/time v0.14.0
-	k8s.io/api v0.0.0-20260203182827-ab936f91c790
-	k8s.io/apimachinery v0.0.0-20260128173627-f88bdbffa260
-	k8s.io/apiserver v0.0.0-20260204155856-d5698b9bf1fa
-	k8s.io/client-go v0.0.0-20260204034225-65608ffa8ed0
-	k8s.io/component-base v0.0.0-20260204154858-724d314f2a3e
-	k8s.io/component-helpers v0.0.0-20260128015658-baa7b3dc5627
-	k8s.io/controller-manager v0.0.0-20260204162930-1b67be7d2d05
+	k8s.io/api v0.0.0-20260205113801-e9022605bb35
+	k8s.io/apimachinery v0.0.0-20260205113442-4c7488a521c8
+	k8s.io/apiserver v0.0.0-20260205120159-434c1bfc5ac3
+	k8s.io/client-go v0.0.0-20260205114233-c148db951165
+	k8s.io/component-base v0.0.0-20260205115319-11b8e8de7093
+	k8s.io/component-helpers v0.0.0-20260205115455-c8ad3f9cfbe2
+	k8s.io/controller-manager v0.0.0-20260205122840-3c293be53387
 	k8s.io/klog/v2 v2.130.1
-	k8s.io/utils v0.0.0-20251219084037-98d557b7f1e7
+	k8s.io/utils v0.0.0-20260108192941-914a6e750570
 )
 
 require (
@@ -47,7 +47,6 @@ require (
 	github.com/go-openapi/swag v0.23.0 // indirect
 	github.com/gogo/protobuf v1.3.2 // indirect
 	github.com/golang/protobuf v1.5.4 // indirect
-	github.com/google/btree v1.1.3 // indirect
 	github.com/google/cel-go v0.26.0 // indirect
 	github.com/google/gnostic-models v0.7.0 // indirect
 	github.com/google/uuid v1.6.0 // indirect

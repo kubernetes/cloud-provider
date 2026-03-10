@@ -89,12 +89,14 @@ func NewCloudControllerManagerCommand(s *options.CloudControllerManagerOptions, 
 the cloud specific control loops shipped with Kubernetes.`,
 		RunE: func(cmd *cobra.Command, args []string) error {
 			verflag.PrintAndExitIfRequested()
-			cliflag.PrintFlags(cmd.Flags())
 
+			// Activate logging as soon as possible, after that
+			// show flags with the final logging configuration.
 			if err := logsapi.ValidateAndApply(logOptions, utilfeature.DefaultFeatureGate); err != nil {
 				fmt.Fprintf(os.Stderr, "%v\n", err)
 				return err
 			}
+			cliflag.PrintFlags(cmd.Flags())
 
 			c, err := s.Config(ControllerNames(controllerInitFuncConstructors), ControllersDisabledByDefault.List(), controllerAliases, AllWebhooks, DisabledByDefaultWebhooks)
 			if err != nil {

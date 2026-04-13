@@ -14,11 +14,11 @@ require (
 	golang.org/x/time v0.14.0
 	k8s.io/api v0.0.0-20260414141716-ddad8a9beb39
 	k8s.io/apimachinery v0.0.0-20260414135623-72791e98891a
-	k8s.io/apiserver v0.0.0-20260414163624-c4e4f816413a
+	k8s.io/apiserver v0.0.0-20260414163625-aa69486a0bec
 	k8s.io/client-go v0.0.0-20260414143851-3c8a6967ba6d
-	k8s.io/component-base v0.0.0-20260414155922-078ba39ba6db
+	k8s.io/component-base v0.0.0-20260414155923-12f6271c1572
 	k8s.io/component-helpers v0.0.0-20260414161221-0a0fc66e1d14
-	k8s.io/controller-manager v0.0.0-20260414195424-115898b0abac
+	k8s.io/controller-manager v0.0.0-20260414195425-b31a2ec0794e
 	k8s.io/klog/v2 v2.140.0
 	k8s.io/utils v0.0.0-20260210185600-b8788abfbbc2
 )
@@ -75,12 +75,12 @@ require (
 	go.opentelemetry.io/auto/sdk v1.2.1 // indirect
 	go.opentelemetry.io/contrib/instrumentation/google.golang.org/grpc/otelgrpc v0.65.0 // indirect
 	go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp v0.65.0 // indirect
-	go.opentelemetry.io/otel v1.40.0 // indirect
+	go.opentelemetry.io/otel v1.41.0 // indirect
 	go.opentelemetry.io/otel/exporters/otlp/otlptrace v1.40.0 // indirect
 	go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracegrpc v1.40.0 // indirect
-	go.opentelemetry.io/otel/metric v1.40.0 // indirect
+	go.opentelemetry.io/otel/metric v1.41.0 // indirect
 	go.opentelemetry.io/otel/sdk v1.40.0 // indirect
-	go.opentelemetry.io/otel/trace v1.40.0 // indirect
+	go.opentelemetry.io/otel/trace v1.41.0 // indirect
 	go.opentelemetry.io/proto/otlp v1.9.0 // indirect
 	go.uber.org/multierr v1.11.0 // indirect
 	go.uber.org/zap v1.27.1 // indirect
@@ -102,7 +102,7 @@ require (
 	gopkg.in/inf.v0 v0.9.1 // indirect
 	gopkg.in/natefinch/lumberjack.v2 v2.2.1 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
-	k8s.io/kms v0.0.0-20260319225323-e2a2ea96558a // indirect
+	k8s.io/kms v0.0.0-20260414162220-e9f5d74f1e24 // indirect
 	k8s.io/kube-openapi v0.0.0-20260317180543-43fb72c5454a // indirect
 	k8s.io/streaming v0.0.0-20260414135238-73dee8925737 // indirect
 	sigs.k8s.io/apiserver-network-proxy/konnectivity-client v0.34.0 // indirect

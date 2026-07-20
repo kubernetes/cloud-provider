@@ -12,13 +12,13 @@ require (
 	github.com/spf13/pflag v1.0.10
 	github.com/stretchr/testify v1.11.1
 	golang.org/x/time v0.15.0
-	k8s.io/api v0.0.0-20260717180347-e8ec8157eb03
-	k8s.io/apimachinery v0.0.0-20260718014925-52ed2791fbb9
-	k8s.io/apiserver v0.0.0-20260718035509-4726d2bf54de
-	k8s.io/client-go v0.0.0-20260717181243-4e89d98b9580
-	k8s.io/component-base v0.0.0-20260717102953-6e6e41bbf15a
-	k8s.io/component-helpers v0.0.0-20260717183510-4cd955178c7d
-	k8s.io/controller-manager v0.0.0-20260710113122-65f5249de8a6
+	k8s.io/api v0.0.0
+	k8s.io/apimachinery v0.0.0
+	k8s.io/apiserver v0.0.0
+	k8s.io/client-go v0.0.0
+	k8s.io/component-base v0.0.0
+	k8s.io/component-helpers v0.0.0
+	k8s.io/controller-manager v0.0.0
 	k8s.io/klog/v2 v2.140.0
 	k8s.io/utils v0.0.0-20260626114624-be93311217bd
 )
@@ -103,18 +103,30 @@ require (
 	golang.org/x/text v0.40.0 // indirect
 	google.golang.org/genproto/googleapis/api v0.0.0-20260526163538-3dc84a4a5aaa // indirect
 	google.golang.org/genproto/googleapis/rpc v0.0.0-20260526163538-3dc84a4a5aaa // indirect
-	google.golang.org/grpc v1.81.1 // indirect
+	google.golang.org/grpc v1.82.1 // indirect
 	google.golang.org/protobuf v1.36.12-0.20260120151049-f2248ac996af // indirect
 	gopkg.in/evanphx/json-patch.v4 v4.13.0 // indirect
 	gopkg.in/inf.v0 v0.9.1 // indirect
 	gopkg.in/natefinch/lumberjack.v2 v2.2.1 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
-	k8s.io/kms v0.0.0-20260710103345-a047e723cb62 // indirect
+	k8s.io/kms v0.0.0 // indirect
 	k8s.io/kube-openapi v0.0.0-20260618221249-bc653b64f974 // indirect
-	k8s.io/streaming v0.0.0-20260710095143-d1a4397cb62c // indirect
+	k8s.io/streaming v0.0.0 // indirect
 	sigs.k8s.io/apiserver-network-proxy/konnectivity-client v0.36.0 // indirect
 	sigs.k8s.io/json v0.0.0-20250730193827-2d320260d730 // indirect
 	sigs.k8s.io/randfill v1.0.0 // indirect
 	sigs.k8s.io/structured-merge-diff/v6 v6.4.2 // indirect
 	sigs.k8s.io/yaml v1.6.0 // indirect
+)
+
+replace (
+	k8s.io/api => ../api
+	k8s.io/apimachinery => ../apimachinery
+	k8s.io/apiserver => ../apiserver
+	k8s.io/client-go => ../client-go
+	k8s.io/component-base => ../component-base
+	k8s.io/component-helpers => ../component-helpers
+	k8s.io/controller-manager => ../controller-manager
+	k8s.io/kms => ../kms
+	k8s.io/streaming => ../streaming
 )

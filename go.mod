@@ -13,8 +13,8 @@ require (
 	github.com/stretchr/testify v1.12.1
 	golang.org/x/time v0.16.0
 	k8s.io/api v0.0.0-20261022213900-2173a23c7d3e
-	k8s.io/apimachinery v0.0.0-20261022195600-03fbd8e31501
-	k8s.io/apiserver v0.0.0-20261022221654-0acce45d0d38
+	k8s.io/apimachinery v0.0.0-20261023013340-369e047bbe32
+	k8s.io/apiserver v0.0.0-20261023021452-1a6b8d58fa00
 	k8s.io/client-go v0.0.0-20261022214613-453fafce518e
 	k8s.io/component-base v0.0.0-20261018214756-cd2c1afd246a
 	k8s.io/component-helpers v0.0.0-20261014064534-e0a714b31fcd

@@ -12,11 +12,11 @@ require (
 	github.com/spf13/pflag v1.0.10
 	github.com/stretchr/testify v1.12.1
 	golang.org/x/time v0.16.0
-	k8s.io/api v0.0.0-20261016062245-9543bf0b0991
-	k8s.io/apimachinery v0.0.0-20261016061815-bb18965360a1
-	k8s.io/apiserver v0.0.0-20261016203244-194d53b6d65d
-	k8s.io/client-go v0.0.0-20261016144836-c2b21233505d
-	k8s.io/component-base v0.0.0-20261014064326-eb2e9d857afe
+	k8s.io/api v0.0.0-20261022213900-2173a23c7d3e
+	k8s.io/apimachinery v0.0.0-20261022195600-03fbd8e31501
+	k8s.io/apiserver v0.0.0-20261022221654-0acce45d0d38
+	k8s.io/client-go v0.0.0-20261022214613-453fafce518e
+	k8s.io/component-base v0.0.0-20261018214756-cd2c1afd246a
 	k8s.io/component-helpers v0.0.0-20261014064534-e0a714b31fcd
 	k8s.io/controller-manager v0.0.0-20261016223050-ad0db927ba11
 	k8s.io/klog/v2 v2.140.0

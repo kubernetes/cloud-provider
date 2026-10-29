@@ -14,11 +14,11 @@ require (
 	golang.org/x/time v0.16.0
 	k8s.io/api v0.0.0-20261028233444-65c5b9edb29b
 	k8s.io/apimachinery v0.0.0-20261027231708-3c2f8860fff4
-	k8s.io/apiserver v0.0.0-20261029010136-cd7819298ed8
+	k8s.io/apiserver v0.0.0-20261029064831-1723eae6f4f9
 	k8s.io/client-go v0.0.0-20261028235225-79dc79d83350
 	k8s.io/component-base v0.0.0-20261027153629-0c2a61873e07
 	k8s.io/component-helpers v0.0.0-20261029004341-3c3e5cae63d7
-	k8s.io/controller-manager v0.0.0-20261029035026-027a2af94217
+	k8s.io/controller-manager v0.0.0-20261029111811-c34b5ff26b2d
 	k8s.io/klog/v2 v2.140.0
 	k8s.io/utils v0.0.0-20260626114624-be93311217bd
 )

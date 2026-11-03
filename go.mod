@@ -14,17 +14,17 @@ require (
 	golang.org/x/time v0.16.0
 	k8s.io/api v0.0.0-20261103004912-473839cffaa3
 	k8s.io/apimachinery v0.0.0-20261102164403-9b85b23ad678
-	k8s.io/apiserver v0.0.0-20261103131211-3fff00deeab0
+	k8s.io/apiserver v0.0.0-20261103131215-0f639234bb8a
 	k8s.io/client-go v0.0.0-20261103005455-2f8d58824f79
 	k8s.io/component-base v0.0.0-20261102170743-0dbefe7fa314
 	k8s.io/component-helpers v0.0.0-20261102170948-371ec840b3af
-	k8s.io/controller-manager v0.0.0-20261102175709-83b72cc622b8
+	k8s.io/controller-manager v0.0.0-20261103135234-6ff65cf89ffb
 	k8s.io/klog/v2 v2.140.0
 	k8s.io/utils v0.0.0-20260626114624-be93311217bd
 )
 
 require (
-	cel.dev/cel-go v0.33.1 // indirect
+	cel.dev/cel-go v0.33.2 // indirect
 	cel.dev/expr v0.25.3 // indirect
 	github.com/Azure/go-ansiterm v0.0.0-20250102033503-faa5f7b0171c // indirect
 	github.com/antlr4-go/antlr/v4 v4.13.1 // indirect
